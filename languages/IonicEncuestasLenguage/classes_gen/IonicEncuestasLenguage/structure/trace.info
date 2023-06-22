@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,45,0" name="IonicEncuestasLenguage.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,32,0" name="IonicEncuestasLenguage.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="15,0,92,0" name="IonicEncuestasLenguage.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:9172f3f8-9796-4839-a3a5-23c1854477cc(IonicEncuestasLenguage.structure)/4433837859454506232">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="4433837859454506232" at="12,0,13,0" concept="1" trace="props_Encuesta" />
+      <node id="4433837859454506232" at="22,37,23,76" concept="3" />
+      <node id="4433837859454506232" at="23,76,24,35" concept="0" />
+      <node id="4433837859454506232" at="24,35,25,40" concept="0" />
+      <node id="4433837859454506232" at="26,9,27,30" concept="4" />
+      <node id="4433837859454506232" at="21,42,26,9" concept="2" />
+      <scope id="4433837859454506232" at="22,37,25,40">
+        <var name="cpb" id="4433837859454506232" />
+      </scope>
+      <scope id="4433837859454506232" at="21,42,27,30" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="4433837859454506232" at="12,0,13,0" concept="6" trace="Encuesta" />
+      <node id="4433837859454506232" at="17,115,18,47" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="4433837859454506232" at="16,0,17,0" concept="1" trace="myConceptEncuesta" />
+      <node id="4433837859454506232" at="40,42,41,33" concept="4" />
+      <node id="4433837859454506232" at="56,66,57,164" concept="3" />
+      <node id="4433837859454506232" at="57,164,58,33" concept="0" />
+      <node id="4433837859454506232" at="58,33,59,65" concept="5" />
+      <node id="4433837859454506232" at="59,65,60,76" concept="0" />
+      <node id="4433837859454506232" at="60,76,61,71" concept="0" />
+      <node id="4433837859454506232" at="61,71,62,109" concept="0" />
+      <node id="4433837859454506232" at="62,109,63,17" concept="0" />
+      <node id="4433837859454517491" at="63,17,64,120" concept="0" />
+      <node id="4433837859454522656" at="64,120,65,117" concept="0" />
+      <node id="4433837859454514235" at="65,117,66,200" concept="0" />
+      <node id="4433837859454506232" at="66,200,67,22" concept="4" />
+      <node id="4433837859454506232" at="56,0,69,0" concept="7" trace="createDescriptorForEncuesta#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4433837859454506232" at="40,42,41,33" />
+      <scope id="4433837859454506232" at="56,66,67,22">
+        <var name="b" id="4433837859454506232" />
+      </scope>
+      <scope id="4433837859454506232" at="56,0,69,0" />
+    </file>
+  </root>
+  <root nodeRef="r:9172f3f8-9796-4839-a3a5-23c1854477cc(IonicEncuestasLenguage.structure)/4433837859454514705">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="4433837859454514705" at="13,0,14,0" concept="1" trace="props_Pregunta" />
+      <node id="4433837859454514705" at="29,37,30,76" concept="3" />
+      <node id="4433837859454514705" at="30,76,31,40" concept="0" />
+      <node id="4433837859454514705" at="32,9,33,30" concept="4" />
+      <node id="4433837859454514705" at="28,42,32,9" concept="2" />
+      <scope id="4433837859454514705" at="29,37,31,40">
+        <var name="cpb" id="4433837859454514705" />
+      </scope>
+      <scope id="4433837859454514705" at="28,42,33,30" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="4433837859454514705" at="13,0,14,0" concept="6" trace="Pregunta" />
+      <node id="4433837859454514705" at="18,47,19,47" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="4433837859454514705" at="17,0,18,0" concept="1" trace="myConceptPregunta" />
+      <node id="4433837859454514705" at="42,42,43,33" concept="4" />
+      <node id="4433837859454514705" at="69,66,70,164" concept="3" />
+      <node id="4433837859454514705" at="70,164,71,33" concept="0" />
+      <node id="4433837859454514705" at="71,33,72,63" concept="5" />
+      <node id="4433837859454514705" at="72,63,73,76" concept="0" />
+      <node id="4433837859454514705" at="73,76,74,109" concept="0" />
+      <node id="4433837859454514705" at="74,109,75,17" concept="0" />
+      <node id="4433837859454519708" at="75,17,76,120" concept="0" />
+      <node id="4433837859454514705" at="76,120,77,22" concept="4" />
+      <node id="4433837859454514705" at="69,0,79,0" concept="7" trace="createDescriptorForPregunta#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4433837859454514705" at="42,42,43,33" />
+      <scope id="4433837859454514705" at="69,66,77,22">
+        <var name="b" id="4433837859454514705" />
+      </scope>
+      <scope id="4433837859454514705" at="69,0,79,0" />
+    </file>
+  </root>
+  <root nodeRef="r:9172f3f8-9796-4839-a3a5-23c1854477cc(IonicEncuestasLenguage.structure)/4433837859454518222">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="4433837859454518222" at="14,0,15,0" concept="1" trace="props_UnaRespuestaDosOpciones" />
+      <node id="4433837859454518222" at="35,52,36,76" concept="3" />
+      <node id="4433837859454518222" at="36,76,37,38" concept="0" />
+      <node id="4433837859454518222" at="37,38,38,55" concept="0" />
+      <node id="4433837859454518222" at="39,9,40,45" concept="4" />
+      <node id="4433837859454518222" at="34,57,39,9" concept="2" />
+      <scope id="4433837859454518222" at="35,52,38,55">
+        <var name="cpb" id="4433837859454518222" />
+      </scope>
+      <scope id="4433837859454518222" at="34,57,40,45" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="4433837859454518222" at="14,0,15,0" concept="6" trace="UnaRespuestaDosOpciones" />
+      <node id="4433837859454518222" at="19,47,20,62" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="4433837859454518222" at="18,0,19,0" concept="1" trace="myConceptUnaRespuestaDosOpciones" />
+      <node id="4433837859454518222" at="44,57,45,48" concept="4" />
+      <node id="4433837859454518222" at="79,81,80,179" concept="3" />
+      <node id="4433837859454518222" at="80,179,81,34" concept="0" />
+      <node id="4433837859454518222" at="81,34,82,57" concept="5" />
+      <node id="4433837859454518222" at="82,57,83,75" concept="0" />
+      <node id="4433837859454518222" at="83,75,84,109" concept="0" />
+      <node id="4433837859454518222" at="84,109,85,17" concept="0" />
+      <node id="4433837859454519342" at="85,17,86,113" concept="0" />
+      <node id="4433837859454521556" at="86,113,87,113" concept="0" />
+      <node id="4433837859454518222" at="87,113,88,20" concept="0" />
+      <node id="4433837859454518222" at="88,20,89,22" concept="4" />
+      <node id="4433837859454518222" at="79,0,91,0" concept="7" trace="createDescriptorForUnaRespuestaDosOpciones#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4433837859454518222" at="44,57,45,48" />
+      <scope id="4433837859454518222" at="79,81,89,22">
+        <var name="b" id="4433837859454518222" />
+      </scope>
+      <scope id="4433837859454518222" at="79,0,91,0" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="IntentionsDescriptor.java">
+      <unit at="18,0,56,0" name="IonicEncuestasLenguage.intentions.IntentionsDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:9921df03-57ac-407e-96e2-a8e711afc631(IonicEncuestasLenguage.intentions)/2435339912631329685">
+    <file name="IntentionsDescriptor.java">
+      <node id="2435339912631329685" at="37,47,38,55" concept="1" />
+      <node id="2435339912631329685" at="50,52,51,41" concept="1" />
+    </file>
+    <file name="Preview_Code_Intention.java">
+      <node id="2435339912631329685" at="18,0,19,0" concept="2" trace="myCachedExecutable" />
+      <node id="2435339912631329685" at="20,35,21,147" concept="6" />
+      <node id="2435339912631329685" at="25,35,26,26" concept="5" />
+      <node id="2435339912631329685" at="30,35,31,17" concept="5" />
+      <node id="2435339912631329685" at="35,37,36,105" concept="1" />
+      <node id="2435339912631329685" at="37,5,38,30" concept="5" />
+      <node id="2435339912631332274" at="45,87,46,33" concept="5" />
+      <node id="2435339912631329685" at="54,86,55,18" concept="5" />
+      <node id="2435339912631329685" at="61,48,62,41" concept="5" />
+      <node id="2435339912631329685" at="41,0,43,0" concept="0" trace="IntentionImplementation#()V" />
+      <node id="2435339912631329685" at="20,0,23,0" concept="0" trace="Preview_Code_Intention#()V" />
+      <node id="2435339912631329685" at="34,99,37,5" concept="3" />
+      <node id="2435339912631329685" at="49,0,52,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="2435339912631329685" at="24,0,28,0" concept="4" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="2435339912631329685" at="29,0,33,0" concept="4" trace="isSurroundWith#()Z" />
+      <node id="2435339912631329685" at="44,0,48,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="2435339912631329685" at="53,0,57,0" concept="4" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="2435339912631329685" at="60,0,64,0" concept="4" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="2435339912631329685" at="34,0,40,0" concept="4" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <scope id="2435339912631329685" at="41,38,41,38" />
+      <scope id="2435339912631329689" at="50,78,50,78" />
+      <scope id="2435339912631329685" at="20,35,21,147" />
+      <scope id="2435339912631329685" at="25,35,26,26" />
+      <scope id="2435339912631329685" at="30,35,31,17" />
+      <scope id="2435339912631329685" at="35,37,36,105" />
+      <scope id="2435339912631329687" at="45,87,46,33" />
+      <scope id="2435339912631329685" at="54,86,55,18" />
+      <scope id="2435339912631329685" at="61,48,62,41" />
+      <scope id="2435339912631329685" at="41,0,43,0" />
+      <scope id="2435339912631329685" at="20,0,23,0" />
+      <scope id="2435339912631329685" at="49,0,52,0">
+        <var name="editorContext" id="2435339912631329685" />
+        <var name="node" id="2435339912631329685" />
+      </scope>
+      <scope id="2435339912631329685" at="24,0,28,0" />
+      <scope id="2435339912631329685" at="29,0,33,0" />
+      <scope id="2435339912631329685" at="34,99,38,30" />
+      <scope id="2435339912631329685" at="44,0,48,0">
+        <var name="editorContext" id="2435339912631329685" />
+        <var name="node" id="2435339912631329685" />
+      </scope>
+      <scope id="2435339912631329685" at="53,0,57,0">
+        <var name="editorContext" id="2435339912631329685" />
+        <var name="node" id="2435339912631329685" />
+      </scope>
+      <scope id="2435339912631329685" at="60,0,64,0" />
+      <scope id="2435339912631329685" at="34,0,40,0">
+        <var name="context" id="2435339912631329685" />
+        <var name="node" id="2435339912631329685" />
+      </scope>
+      <unit id="2435339912631329685" at="40,0,66,0" name="IonicEncuestasLenguage.intentions.Preview_Code_Intention$IntentionImplementation" />
+      <unit id="2435339912631329685" at="17,0,67,0" name="IonicEncuestasLenguage.intentions.Preview_Code_Intention" />
+    </file>
+  </root>
+</debug-info>
+
