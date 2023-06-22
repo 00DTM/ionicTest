@@ -37,10 +37,20 @@
       <property role="2hZM0$" value="Si" />
       <property role="2hZNzu" value="No" />
     </node>
-    <node concept="2hZMJ4" id="27c4bXvJz0R" role="2hZHKL">
-      <property role="2hZM6m" value="Pregunta2" />
-      <property role="2hZM0$" value="Jamás" />
-      <property role="2hZNzu" value="Quizás" />
+  </node>
+  <node concept="2hZJNM" id="y$0ZvoIJvf">
+    <property role="TrG5h" value="Encuesta1" />
+    <property role="2hZMzT" value="Encuesta1" />
+    <property role="2hZNOE" value="Enviar" />
+    <node concept="2hZMJ4" id="y$0ZvoIJxG" role="2hZHKL">
+      <property role="2hZM6m" value="pregunta1" />
+      <property role="2hZM0$" value="Si" />
+      <property role="2hZNzu" value="No" />
+    </node>
+    <node concept="2hZMJ4" id="y$0ZvoIJz6" role="2hZHKL">
+      <property role="2hZM6m" value="pa" />
+      <property role="2hZM0$" value="pe" />
+      <property role="2hZNzu" value="pi" />
     </node>
   </node>
 </model>

@@ -1,7 +1,9 @@
-<ion-header>  
-  <ion-toolbar>    
-    <ion-title>      
-      Encuesta1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>  
+  <ion-header>    
+    <ion-toolbar>      
+      <ion-tille>        
+        Encuesta1
+      </ion-tille>
+    </ion-toolbar>
+  </ion-header><ion-content><ion-list><ion-radio-group [(ngModel)]="></ion-radio-group [(ngModel)]=">></ion-list></ion-content><ion-content><ion-list><ion-radio-group [(ngModel)]="></ion-radio-group [(ngModel)]=">></ion-list></ion-content>
+</ion-content>
