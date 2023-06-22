@@ -134,7 +134,7 @@
             <property role="2pNNFO" value="ion-toolbar" />
             <node concept="3o6iSG" id="y$0ZvoIxBz" role="3o6s8t" />
             <node concept="2pNNFK" id="y$0ZvoIxHD" role="3o6s8t">
-              <property role="2pNNFO" value="ion-tille" />
+              <property role="2pNNFO" value="ion-title" />
               <node concept="3o6iSG" id="y$0ZvoIxNa" role="3o6s8t" />
               <node concept="3o6iSG" id="y$0ZvoIxO0" role="3o6s8t">
                 <property role="3o6i5n" value="tituloEncuesta" />
