@@ -16,6 +16,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptEncuesta = createDescriptorForEncuesta();
   /*package*/ final ConceptDescriptor myConceptPregunta = createDescriptorForPregunta();
   /*package*/ final ConceptDescriptor myConceptUnaRespuestaDosOpciones = createDescriptorForUnaRespuestaDosOpciones();
+  /*package*/ final ConceptDescriptor myConceptUnaRespuestaTresOpciones = createDescriptorForUnaRespuestaTresOpciones();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -30,7 +31,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptEncuesta, myConceptPregunta, myConceptUnaRespuestaDosOpciones);
+    return Arrays.asList(myConceptEncuesta, myConceptPregunta, myConceptUnaRespuestaDosOpciones, myConceptUnaRespuestaTresOpciones);
   }
 
   @Override
@@ -43,6 +44,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptPregunta;
       case LanguageConceptSwitch.UnaRespuestaDosOpciones:
         return myConceptUnaRespuestaDosOpciones;
+      case LanguageConceptSwitch.UnaRespuestaTresOpciones:
+        return myConceptUnaRespuestaTresOpciones;
       default:
         return null;
     }
@@ -86,6 +89,19 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("opcion1", 0x3d88280aac77082eL).type(PrimitiveTypeId.STRING).origin("4433837859454519342").done();
     b.property("opcion2", 0x3d88280aac7710d4L).type(PrimitiveTypeId.STRING).origin("4433837859454521556").done();
     b.alias("URDO");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForUnaRespuestaTresOpciones() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("IonicEncuestasLenguage", "UnaRespuestaTresOpciones", 0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x8a403f7d8c07be2L);
+    b.class_(false, false, false);
+    // extends: IonicEncuestasLenguage.structure.Pregunta
+    b.super_(0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x3d88280aac76f611L);
+    b.origin("r:9172f3f8-9796-4839-a3a5-23c1854477cc(IonicEncuestasLenguage.structure)/622627011512269794");
+    b.version(3);
+    b.property("opcion1", 0x8a403f7d8c08687L).type(PrimitiveTypeId.STRING).origin("622627011512272519").done();
+    b.property("opcion2", 0x8a403f7d8c088afL).type(PrimitiveTypeId.STRING).origin("622627011512273071").done();
+    b.property("opcion3", 0x8a403f7d8c08b40L).type(PrimitiveTypeId.STRING).origin("622627011512273728").done();
+    b.alias("URTO");
     return b.create();
   }
 }

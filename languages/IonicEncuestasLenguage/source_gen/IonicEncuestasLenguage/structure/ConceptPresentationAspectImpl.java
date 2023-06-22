@@ -12,6 +12,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Encuesta;
   private ConceptPresentation props_Pregunta;
   private ConceptPresentation props_UnaRespuestaDosOpciones;
+  private ConceptPresentation props_UnaRespuestaTresOpciones;
 
   @Override
   @Nullable
@@ -38,6 +39,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_UnaRespuestaDosOpciones = cpb.create();
         }
         return props_UnaRespuestaDosOpciones;
+      case LanguageConceptSwitch.UnaRespuestaTresOpciones:
+        if (props_UnaRespuestaTresOpciones == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("URTO");
+          props_UnaRespuestaTresOpciones = cpb.create();
+        }
+        return props_UnaRespuestaTresOpciones;
     }
     return null;
   }

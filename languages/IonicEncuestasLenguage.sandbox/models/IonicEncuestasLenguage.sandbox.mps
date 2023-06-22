@@ -21,6 +21,11 @@
         <property id="4433837859454519342" name="opcion1" index="2hZM0$" />
         <property id="4433837859454521556" name="opcion2" index="2hZNzu" />
       </concept>
+      <concept id="622627011512269794" name="IonicEncuestasLenguage.structure.UnaRespuestaTresOpciones" flags="ng" index="3gp7wl">
+        <property id="622627011512272519" name="opcion1" index="3gp8lK" />
+        <property id="622627011512273728" name="opcion3" index="3gp8yR" />
+        <property id="622627011512273071" name="opcion2" index="3gp8Ho" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -51,6 +56,12 @@
       <property role="2hZM6m" value="pa" />
       <property role="2hZM0$" value="pe" />
       <property role="2hZNzu" value="pi" />
+    </node>
+    <node concept="3gp7wl" id="y$0ZvoKxc8" role="2hZHKL">
+      <property role="2hZM6m" value="pregunta3" />
+      <property role="3gp8lK" value="si" />
+      <property role="3gp8Ho" value="no" />
+      <property role="3gp8yR" value="tal vez" />
     </node>
   </node>
 </model>

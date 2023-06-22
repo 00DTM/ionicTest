@@ -123,5 +123,47 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="y$0ZvoKacc">
+    <ref role="1XX52x" to="vcgc:y$0ZvoK7Jy" resolve="UnaRespuestaTresOpciones" />
+    <node concept="3EZMnI" id="y$0ZvoKacd" role="2wV5jI">
+      <node concept="3EZMnI" id="y$0ZvoKace" role="3EZMnx">
+        <node concept="2iRfu4" id="y$0ZvoKacf" role="2iSdaV" />
+        <node concept="PMmxH" id="y$0ZvoKacg" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        </node>
+        <node concept="3F0ifn" id="y$0ZvoKach" role="3EZMnx">
+          <property role="3F0ifm" value="Titulo de la pregunta:" />
+        </node>
+        <node concept="3F0A7n" id="y$0ZvoKaci" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:3Q8a0EGtKAs" resolve="tituloPregunta" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="y$0ZvoKacj" role="3EZMnx">
+        <node concept="2iRfu4" id="y$0ZvoKack" role="2iSdaV" />
+        <node concept="3F0ifn" id="y$0ZvoKacl" role="3EZMnx">
+          <property role="3F0ifm" value="Opción1:" />
+        </node>
+        <node concept="3F0A7n" id="y$0ZvoKacm" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:y$0ZvoK8q7" resolve="opcion1" />
+        </node>
+        <node concept="3F0ifn" id="y$0ZvoKacn" role="3EZMnx">
+          <property role="3F0ifm" value="Opción2: " />
+        </node>
+        <node concept="3F0A7n" id="y$0ZvoKaco" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:y$0ZvoK8yJ" resolve="opcion2" />
+        </node>
+        <node concept="3F0ifn" id="y$0ZvoKaCO" role="3EZMnx">
+          <property role="3F0ifm" value="Opción3:" />
+        </node>
+        <node concept="3F0A7n" id="y$0ZvoKaJo" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:y$0ZvoK8H0" resolve="opcion3" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="y$0ZvoKacp" role="2iSdaV" />
+      <node concept="pj6Ft" id="y$0ZvoKacq" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
 </model>
 

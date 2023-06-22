@@ -21,6 +21,8 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
         return Collections.<ConceptEditor>singletonList(new Encuesta_Editor());
       case 1:
         return Collections.<ConceptEditor>singletonList(new UnaRespuestaDosOpciones_Editor());
+      case 2:
+        return Collections.<ConceptEditor>singletonList(new UnaRespuestaTresOpciones_Editor());
       default:
     }
     return Collections.<ConceptEditor>emptyList();
@@ -28,5 +30,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
 
 
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x3d88280aac76d4f8L), MetaIdFactory.conceptId(0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x3d88280aac7703ceL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x3d88280aac76d4f8L), MetaIdFactory.conceptId(0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x3d88280aac7703ceL), MetaIdFactory.conceptId(0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x8a403f7d8c07be2L)).seal();
 }

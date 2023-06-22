@@ -96,5 +96,26 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="y$0ZvoK7Jy">
+    <property role="EcuMT" value="622627011512269794" />
+    <property role="TrG5h" value="UnaRespuestaTresOpciones" />
+    <property role="34LRSv" value="URTO" />
+    <ref role="1TJDcQ" node="3Q8a0EGtJoh" resolve="Pregunta" />
+    <node concept="1TJgyi" id="y$0ZvoK8q7" role="1TKVEl">
+      <property role="IQ2nx" value="622627011512272519" />
+      <property role="TrG5h" value="opcion1" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="y$0ZvoK8yJ" role="1TKVEl">
+      <property role="IQ2nx" value="622627011512273071" />
+      <property role="TrG5h" value="opcion2" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="y$0ZvoK8H0" role="1TKVEl">
+      <property role="IQ2nx" value="622627011512273728" />
+      <property role="TrG5h" value="opcion3" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

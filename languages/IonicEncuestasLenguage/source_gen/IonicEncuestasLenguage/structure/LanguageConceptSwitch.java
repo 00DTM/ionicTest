@@ -12,12 +12,14 @@ public final class LanguageConceptSwitch {
   public static final int Encuesta = 0;
   public static final int Pregunta = 1;
   public static final int UnaRespuestaDosOpciones = 2;
+  public static final int UnaRespuestaTresOpciones = 3;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xf5e16b511bd46e4L, 0x94b097bcd9688f43L);
     builder.put(0x3d88280aac76d4f8L, Encuesta);
     builder.put(0x3d88280aac76f611L, Pregunta);
     builder.put(0x3d88280aac7703ceL, UnaRespuestaDosOpciones);
+    builder.put(0x8a403f7d8c07be2L, UnaRespuestaTresOpciones);
     myIndex = builder.seal();
   }
 
