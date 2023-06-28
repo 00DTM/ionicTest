@@ -48,8 +48,8 @@
       <node id="4433837859454506232" at="65,109,66,17" concept="0" />
       <node id="4433837859454517491" at="66,17,67,120" concept="0" />
       <node id="4433837859454522656" at="67,120,68,117" concept="0" />
-      <node id="4433837859454514235" at="68,117,69,200" concept="0" />
-      <node id="4433837859454506232" at="69,200,70,22" concept="4" />
+      <node id="4433837859454514235" at="68,117,69,201" concept="0" />
+      <node id="4433837859454506232" at="69,201,70,22" concept="4" />
       <node id="4433837859454506232" at="59,0,72,0" concept="7" trace="createDescriptorForEncuesta#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="4433837859454506232" at="41,42,42,33" />
       <scope id="4433837859454506232" at="59,66,70,22">

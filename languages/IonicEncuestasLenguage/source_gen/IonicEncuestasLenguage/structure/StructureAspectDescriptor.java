@@ -66,7 +66,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(3);
     b.property("tituloEncuesta", 0x3d88280aac7700f3L).type(PrimitiveTypeId.STRING).origin("4433837859454517491").done();
     b.property("tituloBoton", 0x3d88280aac771520L).type(PrimitiveTypeId.STRING).origin("4433837859454522656").done();
-    b.aggregate("preguntas", 0x3d88280aac76f43bL).target(0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x3d88280aac76f611L).optional(true).ordered(true).multiple(true).origin("4433837859454514235").done();
+    b.aggregate("preguntas", 0x3d88280aac76f43bL).target(0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x3d88280aac76f611L).optional(false).ordered(true).multiple(true).origin("4433837859454514235").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPregunta() {

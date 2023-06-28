@@ -1,9 +1,20 @@
-<ion-content>  
+
+  <!--Eliminar las etiquetas div-->
+<div>  
   <ion-header>    
     <ion-toolbar>      
-      <ion-tille>        
-        Encuesta1
-      </ion-tille>
+      <ion-title>        
+        
+      </ion-title>
     </ion-toolbar>
-  </ion-header><ion-content><ion-list><ion-radio-group [(ngModel)]="></ion-radio-group [(ngModel)]=">></ion-list></ion-content><ion-content><ion-list><ion-radio-group [(ngModel)]="></ion-radio-group [(ngModel)]=">></ion-list></ion-content>
-</ion-content>
+  </ion-header>
+  <ion-content></ion-content>
+  <ion-button expand="full" (click)="enviarRespuesta()" [disabled]="!respuesta"></ion-button>
+  
+  <!--Parte para TS-->
+  <!--Añadir en los import-->
+  import { paco } from 'Fran';
+  
+  
+  
+</div>

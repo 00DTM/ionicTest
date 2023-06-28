@@ -58,19 +58,19 @@
       <node concept="3F0ifn" id="27c4bXvICix" role="3EZMnx">
         <property role="3F0ifm" value="Título test:" />
       </node>
-      <node concept="3F0A7n" id="27c4bXvICtK" role="3EZMnx">
+      <node concept="3F0A7n" id="32hahZHs8df" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F0ifn" id="3Q8a0EGtMRa" role="3EZMnx">
         <property role="3F0ifm" value="Titulo de la encuesta:" />
       </node>
-      <node concept="3F0A7n" id="3Q8a0EGtN1r" role="3EZMnx">
+      <node concept="3F0A7n" id="32hahZHsjRn" role="3EZMnx">
         <ref role="1NtTu8" to="vcgc:3Q8a0EGtK3N" resolve="tituloEncuesta" />
       </node>
       <node concept="3F0ifn" id="3Q8a0EGtNhu" role="3EZMnx">
         <property role="3F0ifm" value="Nombre del botón para enviar:" />
       </node>
-      <node concept="3F0A7n" id="3Q8a0EGtNku" role="3EZMnx">
+      <node concept="3F0A7n" id="32hahZHsebu" role="3EZMnx">
         <ref role="1NtTu8" to="vcgc:3Q8a0EGtLkw" resolve="tituloBoton" />
         <node concept="ljvvj" id="27c4bXvGUJ8" role="3F10Kt">
           <property role="VOm3f" value="true" />

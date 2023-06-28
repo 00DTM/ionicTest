@@ -34,6 +34,9 @@
       <concept id="6666499814681541919" name="jetbrains.mps.core.xml.structure.XmlTextValue" flags="ng" index="2pMdtt">
         <property id="6666499814681541920" name="text" index="2pMdty" />
       </concept>
+      <concept id="6666499814681299057" name="jetbrains.mps.core.xml.structure.XmlProlog" flags="ng" index="2pNm8N">
+        <child id="7604553062773674214" name="elements" index="BGLLu" />
+      </concept>
       <concept id="6666499814681299064" name="jetbrains.mps.core.xml.structure.XmlComment" flags="nn" index="2pNm8U">
         <child id="1622293396949036151" name="lines" index="3o66t8" />
       </concept>
@@ -46,6 +49,9 @@
         <property id="6666499814681447926" name="attrName" index="2pNUuO" />
         <child id="6666499814681541918" name="value" index="2pMdts" />
       </concept>
+      <concept id="7604553062773750440" name="jetbrains.mps.core.xml.structure.XmlWhitespace" flags="nn" index="BH3og">
+        <property id="5228786488744844115" name="value" index="3VrZF8" />
+      </concept>
       <concept id="1622293396949036126" name="jetbrains.mps.core.xml.structure.XmlCommentLine" flags="nn" index="3o66tx">
         <property id="1622293396949036127" name="text" index="3o66tw" />
       </concept>
@@ -54,6 +60,7 @@
       </concept>
       <concept id="6786756355279841993" name="jetbrains.mps.core.xml.structure.XmlDocument" flags="ng" index="3rIKKV">
         <child id="6666499814681299055" name="rootElement" index="2pNm8H" />
+        <child id="6666499814681299060" name="prolog" index="2pNm8Q" />
       </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
@@ -272,14 +279,38 @@
             </node>
           </node>
         </node>
+        <node concept="3o6iSG" id="y$0ZvoK$rj" role="3o6s8t" />
         <node concept="2pNm8U" id="y$0ZvoK5ea" role="3o6s8t">
           <node concept="3o66tx" id="y$0ZvoK5kA" role="3o66t8">
             <property role="3o66tw" value="Parte para TS" />
           </node>
         </node>
         <node concept="3o6iSG" id="y$0ZvoK5u2" role="3o6s8t" />
-        <node concept="3o6iSG" id="y$0ZvoK5M4" role="3o6s8t" />
+        <node concept="2pNm8U" id="y$0ZvoKEtC" role="3o6s8t">
+          <node concept="3o66tx" id="y$0ZvoKE$5" role="3o66t8">
+            <property role="3o66tw" value="Añadir en los import" />
+          </node>
+        </node>
+        <node concept="3o6iSG" id="y$0ZvoKEkY" role="3o6s8t" />
+        <node concept="3o6iSG" id="1jYn0mNG_8i" role="3o6s8t">
+          <property role="3o6i5n" value="import { paco } from 'Fran';" />
+        </node>
+        <node concept="3o6iSG" id="9JRAWV5htL" role="3o6s8t" />
+        <node concept="3o6iSG" id="9JRAWV5kNa" role="3o6s8t" />
         <node concept="3o6iSG" id="y$0ZvoK54v" role="3o6s8t" />
+      </node>
+      <node concept="2pNm8N" id="5c7hVCEs0WG" role="2pNm8Q">
+        <node concept="BH3og" id="5c7hVCEs0XK" role="BGLLu">
+          <property role="3VrZF8" value="" />
+        </node>
+        <node concept="BH3og" id="5c7hVCEs12g" role="BGLLu">
+          <property role="3VrZF8" value="  " />
+        </node>
+        <node concept="2pNm8U" id="5c7hVCEs175" role="BGLLu">
+          <node concept="3o66tx" id="5c7hVCEs18c" role="3o66t8">
+            <property role="3o66tw" value="Eliminar las etiquetas div" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="n94m4" id="3Q8a0EGtOtL" role="lGtFl">
@@ -325,32 +356,32 @@
       <node concept="3o6iSG" id="y$0ZvoIVy8" role="3o6s8t">
         <property role="3o6i5n" value="" />
       </node>
-      <node concept="2pNNFK" id="y$0ZvoJW5V" role="3o6s8t">
-        <property role="2pNNFO" value="ion-radio-group" />
-        <node concept="3o6iSG" id="y$0ZvoJX6X" role="3o6s8t" />
-        <node concept="2pNNFK" id="y$0ZvoJXgI" role="3o6s8t">
-          <property role="2pNNFO" value="ion-list-header" />
-          <node concept="3o6iSG" id="y$0ZvoJXrF" role="3o6s8t" />
-          <node concept="3o6iSG" id="y$0ZvoJXs7" role="3o6s8t">
-            <property role="3o6i5n" value="tituloPregunta" />
-            <node concept="17Uvod" id="y$0ZvoJX_K" role="lGtFl">
-              <property role="2qtEX9" value="value" />
-              <property role="P4ACc" value="479c7a8c-02f9-43b5-9139-d910cb22f298/1622293396948952339/1622293396948953704" />
-              <node concept="3zFVjK" id="y$0ZvoJX_N" role="3zH0cK">
-                <node concept="3clFbS" id="y$0ZvoJX_O" role="2VODD2">
-                  <node concept="3clFbF" id="y$0ZvoJX_U" role="3cqZAp">
-                    <node concept="2OqwBi" id="y$0ZvoJX_P" role="3clFbG">
-                      <node concept="3TrcHB" id="y$0ZvoJX_S" role="2OqNvi">
-                        <ref role="3TsBF5" to="vcgc:3Q8a0EGtKAs" resolve="tituloPregunta" />
-                      </node>
-                      <node concept="30H73N" id="y$0ZvoJX_T" role="2Oq$k0" />
+      <node concept="2pNNFK" id="5c7hVCEs1Lb" role="3o6s8t">
+        <property role="2pNNFO" value="ion-list-header" />
+        <node concept="3o6iSG" id="1jYn0mNGnMa" role="3o6s8t">
+          <property role="3o6i5n" value="tituloPregunta" />
+          <node concept="17Uvod" id="1jYn0mNGnVO" role="lGtFl">
+            <property role="2qtEX9" value="value" />
+            <property role="P4ACc" value="479c7a8c-02f9-43b5-9139-d910cb22f298/1622293396948952339/1622293396948953704" />
+            <node concept="3zFVjK" id="1jYn0mNGnVR" role="3zH0cK">
+              <node concept="3clFbS" id="1jYn0mNGnVS" role="2VODD2">
+                <node concept="3clFbF" id="1jYn0mNGnVY" role="3cqZAp">
+                  <node concept="2OqwBi" id="1jYn0mNGnVT" role="3clFbG">
+                    <node concept="3TrcHB" id="1jYn0mNGnVW" role="2OqNvi">
+                      <ref role="3TsBF5" to="vcgc:3Q8a0EGtKAs" resolve="tituloPregunta" />
                     </node>
+                    <node concept="30H73N" id="1jYn0mNGnVX" role="2Oq$k0" />
                   </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
+      </node>
+      <node concept="3o6iSG" id="5c7hVCEs1Da" role="3o6s8t" />
+      <node concept="2pNNFK" id="y$0ZvoJW5V" role="3o6s8t">
+        <property role="2pNNFO" value="ion-radio-group" />
+        <node concept="3o6iSG" id="y$0ZvoJX6X" role="3o6s8t" />
         <node concept="2pNNFK" id="y$0ZvoJXQT" role="3o6s8t">
           <property role="2pNNFO" value="ion-item" />
           <node concept="3o6iSG" id="y$0ZvoJY0r" role="3o6s8t" />
@@ -485,6 +516,15 @@
           </node>
         </node>
       </node>
+      <node concept="3o6iSG" id="y$0ZvoKHOB" role="3o6s8t" />
+      <node concept="2pNm8U" id="y$0ZvoKI3z" role="3o6s8t">
+        <node concept="3o66tx" id="y$0ZvoKIpC" role="3o66t8">
+          <property role="3o66tw" value="Añadir en archivo de TS dentro de la clase" />
+        </node>
+      </node>
+      <node concept="3o6iSG" id="y$0ZvoKIvE" role="3o6s8t" />
+      <node concept="3o6iSG" id="y$0ZvoKI$X" role="3o6s8t" />
+      <node concept="3o6iSG" id="y$0ZvoKHVP" role="3o6s8t" />
       <node concept="raruj" id="y$0ZvoIVta" role="lGtFl" />
     </node>
   </node>
