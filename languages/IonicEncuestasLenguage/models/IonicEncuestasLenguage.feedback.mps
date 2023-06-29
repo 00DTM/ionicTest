@@ -130,5 +130,41 @@
       </node>
     </node>
   </node>
+  <node concept="3QByoM" id="5Z$ulcnBAx">
+    <ref role="3Z9TSV" to="vcgc:y$0ZvoK7Jy" resolve="UnaRespuestaTresOpciones" />
+    <node concept="3QByp$" id="5Z$ulcnBAy" role="3QBEN7">
+      <node concept="1GjwBS" id="5Z$ulcnB_A" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="vcgc:y$0ZvoK8H0" resolve="opcion3" />
+      </node>
+      <node concept="16I2mz" id="5Z$ulcnBAA" role="16N$OO">
+        <node concept="16N$OT" id="5Z$ulcnBMB" role="16I2mt">
+          <property role="16N$OU" value="Falta la opción3 por cumplimentar" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="5Z$ulcnCfU" role="3QBEN7">
+      <node concept="1GjwBS" id="5Z$ulcnCeZ" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="vcgc:y$0ZvoK8yJ" resolve="opcion2" />
+      </node>
+      <node concept="16I2mz" id="5Z$ulcnCfY" role="16N$OO">
+        <node concept="16N$OT" id="5Z$ulcnCfZ" role="16I2mt">
+          <property role="16N$OU" value="Falta la opción2 por cumplimentar" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="5Z$ulcnCEL" role="3QBEN7">
+      <node concept="1GjwBS" id="5Z$ulcnCDQ" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="vcgc:y$0ZvoK8q7" resolve="opcion1" />
+      </node>
+      <node concept="16I2mz" id="5Z$ulcnCEP" role="16N$OO">
+        <node concept="16N$OT" id="5Z$ulcnCEQ" role="16I2mt">
+          <property role="16N$OU" value="Falta la opción1 por cumplimentar" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
