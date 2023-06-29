@@ -117,5 +117,31 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5Z$ulcnD8k">
+    <property role="EcuMT" value="107965330094985748" />
+    <property role="TrG5h" value="UnaRespuestaCuatroOpciones" />
+    <property role="34LRSv" value="URCO" />
+    <ref role="1TJDcQ" node="3Q8a0EGtJoh" resolve="Pregunta" />
+    <node concept="1TJgyi" id="5Z$ulcnD8l" role="1TKVEl">
+      <property role="IQ2nx" value="107965330094985749" />
+      <property role="TrG5h" value="opcion1" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5Z$ulcnD8m" role="1TKVEl">
+      <property role="IQ2nx" value="107965330094985750" />
+      <property role="TrG5h" value="opcion2" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5Z$ulcnD8n" role="1TKVEl">
+      <property role="IQ2nx" value="107965330094985751" />
+      <property role="TrG5h" value="opcion3" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5Z$ulcnDlG" role="1TKVEl">
+      <property role="IQ2nx" value="107965330094986604" />
+      <property role="TrG5h" value="opcion4" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

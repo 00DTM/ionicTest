@@ -166,5 +166,52 @@
       </node>
     </node>
   </node>
+  <node concept="3QByoM" id="5Z$ulcnIVh">
+    <ref role="3Z9TSV" to="vcgc:5Z$ulcnD8k" resolve="UnaRespuestaCuatroOpciones" />
+    <node concept="3QByp$" id="5Z$ulcnIVi" role="3QBEN7">
+      <node concept="1GjwBS" id="5Z$ulcnIUm" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="vcgc:5Z$ulcnD8l" resolve="opcion1" />
+      </node>
+      <node concept="16I2mz" id="5Z$ulcnIVm" role="16N$OO">
+        <node concept="16N$OT" id="5Z$ulcnJcF" role="16I2mt">
+          <property role="16N$OU" value="Falta cumplimentar la opcion1" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="5Z$ulcnJym" role="3QBEN7">
+      <node concept="1GjwBS" id="5Z$ulcnJxr" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="vcgc:5Z$ulcnD8m" resolve="opcion2" />
+      </node>
+      <node concept="16I2mz" id="5Z$ulcnJyq" role="16N$OO">
+        <node concept="16N$OT" id="5Z$ulcnJyr" role="16I2mt">
+          <property role="16N$OU" value="Falta cumplimentar la opcion2" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="5Z$ulcnJUT" role="3QBEN7">
+      <node concept="1GjwBS" id="5Z$ulcnJTY" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="vcgc:5Z$ulcnD8n" resolve="opcion3" />
+      </node>
+      <node concept="16I2mz" id="5Z$ulcnJUX" role="16N$OO">
+        <node concept="16N$OT" id="5Z$ulcnJUY" role="16I2mt">
+          <property role="16N$OU" value="Falta cumplimentar la opcion3" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="5Z$ulcnKkM" role="3QBEN7">
+      <node concept="1GjwBS" id="5Z$ulcnKjR" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="vcgc:5Z$ulcnDlG" resolve="opcion4" />
+      </node>
+      <node concept="16I2mz" id="5Z$ulcnKkQ" role="16N$OO">
+        <node concept="16N$OT" id="5Z$ulcnKkR" role="16I2mt">
+          <property role="16N$OU" value="Falta cumplimentar la opcion4" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -165,5 +165,53 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="5Z$ulcnDur">
+    <ref role="1XX52x" to="vcgc:5Z$ulcnD8k" resolve="UnaRespuestaCuatroOpciones" />
+    <node concept="3EZMnI" id="5Z$ulcnDus" role="2wV5jI">
+      <node concept="3EZMnI" id="5Z$ulcnDut" role="3EZMnx">
+        <node concept="2iRfu4" id="5Z$ulcnDuu" role="2iSdaV" />
+        <node concept="PMmxH" id="5Z$ulcnDuv" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        </node>
+        <node concept="3F0ifn" id="5Z$ulcnDuw" role="3EZMnx">
+          <property role="3F0ifm" value="Titulo de la pregunta:" />
+        </node>
+        <node concept="3F0A7n" id="5Z$ulcnDux" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:3Q8a0EGtKAs" resolve="tituloPregunta" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="5Z$ulcnDuy" role="3EZMnx">
+        <node concept="2iRfu4" id="5Z$ulcnDuz" role="2iSdaV" />
+        <node concept="3F0ifn" id="5Z$ulcnDu$" role="3EZMnx">
+          <property role="3F0ifm" value="Opción1:" />
+        </node>
+        <node concept="3F0A7n" id="5Z$ulcnDu_" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:5Z$ulcnD8l" resolve="opcion1" />
+        </node>
+        <node concept="3F0ifn" id="5Z$ulcnDuA" role="3EZMnx">
+          <property role="3F0ifm" value="Opción2: " />
+        </node>
+        <node concept="3F0A7n" id="5Z$ulcnDuB" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:5Z$ulcnD8m" resolve="opcion2" />
+        </node>
+        <node concept="3F0ifn" id="5Z$ulcnDuC" role="3EZMnx">
+          <property role="3F0ifm" value="Opción3:" />
+        </node>
+        <node concept="3F0A7n" id="5Z$ulcnDuD" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:5Z$ulcnD8n" resolve="opcion3" />
+        </node>
+        <node concept="3F0ifn" id="5Z$ulcnDZj" role="3EZMnx">
+          <property role="3F0ifm" value="Opción4:" />
+        </node>
+        <node concept="3F0A7n" id="5Z$ulcnE71" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:5Z$ulcnDlG" resolve="opcion4" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="5Z$ulcnDuE" role="2iSdaV" />
+      <node concept="pj6Ft" id="5Z$ulcnDuF" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
 </model>
 
