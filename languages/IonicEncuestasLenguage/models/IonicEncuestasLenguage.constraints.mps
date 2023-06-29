@@ -75,5 +75,50 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="5Z$ulcndgr">
+    <ref role="1M2myG" to="vcgc:3Q8a0EGtKfe" resolve="UnaRespuestaDosOpciones" />
+    <node concept="EnEH3" id="5Z$ulcngPH" role="1MhHOB">
+      <ref role="EomxK" to="vcgc:3Q8a0EGtKwI" resolve="opcion1" />
+      <node concept="QB0g5" id="5Z$ulcngVn" role="QCWH9">
+        <node concept="3clFbS" id="5Z$ulcngVo" role="2VODD2">
+          <node concept="3clFbF" id="5Z$ulcnh4C" role="3cqZAp">
+            <node concept="2OqwBi" id="5Z$ulcnhJ$" role="3clFbG">
+              <node concept="1Wqviy" id="5Z$ulcnh4B" role="2Oq$k0" />
+              <node concept="17RvpY" id="5Z$ulcnist" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="EnEH3" id="5Z$ulcniTz" role="1MhHOB">
+      <ref role="EomxK" to="vcgc:3Q8a0EGtL3k" resolve="opcion2" />
+      <node concept="QB0g5" id="5Z$ulcnj2S" role="QCWH9">
+        <node concept="3clFbS" id="5Z$ulcnj2T" role="2VODD2">
+          <node concept="3clFbF" id="5Z$ulcnjc9" role="3cqZAp">
+            <node concept="2OqwBi" id="5Z$ulcnjW5" role="3clFbG">
+              <node concept="1Wqviy" id="5Z$ulcnjc8" role="2Oq$k0" />
+              <node concept="17RvpY" id="5Z$ulcnkDo" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5Z$ulcndhk">
+    <ref role="1M2myG" to="vcgc:3Q8a0EGtJoh" resolve="Pregunta" />
+    <node concept="EnEH3" id="5Z$ulcndnL" role="1MhHOB">
+      <ref role="EomxK" to="vcgc:3Q8a0EGtKAs" resolve="tituloPregunta" />
+      <node concept="QB0g5" id="5Z$ulcndw_" role="QCWH9">
+        <node concept="3clFbS" id="5Z$ulcndwA" role="2VODD2">
+          <node concept="3clFbF" id="5Z$ulcndEu" role="3cqZAp">
+            <node concept="2OqwBi" id="5Z$ulcnf_c" role="3clFbG">
+              <node concept="1Wqviy" id="5Z$ulcndEt" role="2Oq$k0" />
+              <node concept="17RvpY" id="5Z$ulcnghu" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

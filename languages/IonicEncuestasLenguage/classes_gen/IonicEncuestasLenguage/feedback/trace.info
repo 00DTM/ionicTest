@@ -10,6 +10,65 @@
       <unit at="10,0,17,0" name="IonicEncuestasLenguage.feedback.GeneratedFeedbackAspectFeedback" />
     </file>
   </root>
+  <root nodeRef="r:be5a5cb1-4a30-416c-9a5b-480c15d048dc(IonicEncuestasLenguage.feedback)/107965330094884784">
+    <file name="Pregunta_FeedbackFeedback.java">
+      <node id="107965330094884784" at="21,0,22,0" concept="3" trace="CONCEPT" />
+      <node id="107965330094884785" at="26,87,27,81" concept="2" />
+      <node id="107965330094884784" at="31,0,32,0" concept="3" trace="PROVIDERS" />
+      <node id="107965330094884784" at="33,38,34,19" concept="4" />
+      <node id="107965330094884784" at="39,58,40,30" concept="2" />
+      <node id="107965330094884784" at="44,0,45,0" concept="3" trace="tituloPregunta$cmf4" />
+      <node id="107965330094884784" at="33,0,36,0" concept="0" trace="Pregunta_FeedbackFeedback#()V" />
+      <node id="107965330094884785" at="24,0,29,0" concept="1" trace="yieldMessage#(Ljetbrains/mps/core/aspects/feedback/messages/FailingPropertyConstraintContext;)Ljetbrains/mps/core/aspects/feedback/messages/MessageProvider/Msg;" />
+      <node id="107965330094884784" at="37,0,42,0" concept="1" trace="getDeclaredProviders#()Ljava/util/stream/Stream;" />
+      <node id="107965330094884785" at="23,0,30,0" concept="3" trace="MSGPROVIDER_WhenPropertyConstraintFails_6t5yn_a" />
+      <scope id="107965330094884785" at="26,87,27,81" />
+      <scope id="107965330094884784" at="33,38,34,19" />
+      <scope id="107965330094884784" at="39,58,40,30" />
+      <scope id="107965330094884784" at="33,0,36,0" />
+      <scope id="107965330094884785" at="24,0,29,0">
+        <var name="context" id="107965330094884785" />
+      </scope>
+      <scope id="107965330094884784" at="37,0,42,0" />
+      <unit id="107965330094884784" at="43,0,46,0" name="IonicEncuestasLenguage.feedback.Pregunta_FeedbackFeedback$PROPS" />
+      <unit id="107965330094884785" at="23,128,29,3" name="IonicEncuestasLenguage.feedback.Pregunta_FeedbackFeedback$1" />
+      <unit id="107965330094884784" at="20,0,47,0" name="IonicEncuestasLenguage.feedback.Pregunta_FeedbackFeedback" />
+    </file>
+  </root>
+  <root nodeRef="r:be5a5cb1-4a30-416c-9a5b-480c15d048dc(IonicEncuestasLenguage.feedback)/107965330094893197">
+    <file name="UnaRespuestaDosOpciones_FeedbackFeedback.java">
+      <node id="107965330094893197" at="21,0,22,0" concept="3" trace="CONCEPT" />
+      <node id="107965330094893198" at="26,87,27,80" concept="2" />
+      <node id="107965330094902190" at="33,87,34,80" concept="2" />
+      <node id="107965330094893197" at="38,0,39,0" concept="3" trace="PROVIDERS" />
+      <node id="107965330094893197" at="40,53,41,19" concept="4" />
+      <node id="107965330094893197" at="46,58,47,30" concept="2" />
+      <node id="107965330094893197" at="51,0,52,0" concept="3" trace="opcion1$ce04" />
+      <node id="107965330094893197" at="52,0,53,0" concept="3" trace="opcion2$zgyM" />
+      <node id="107965330094893197" at="40,0,43,0" concept="0" trace="UnaRespuestaDosOpciones_FeedbackFeedback#()V" />
+      <node id="107965330094893198" at="24,0,29,0" concept="1" trace="yieldMessage#(Ljetbrains/mps/core/aspects/feedback/messages/FailingPropertyConstraintContext;)Ljetbrains/mps/core/aspects/feedback/messages/MessageProvider/Msg;" />
+      <node id="107965330094902190" at="31,0,36,0" concept="1" trace="yieldMessage#(Ljetbrains/mps/core/aspects/feedback/messages/FailingPropertyConstraintContext;)Ljetbrains/mps/core/aspects/feedback/messages/MessageProvider/Msg;" />
+      <node id="107965330094893197" at="44,0,49,0" concept="1" trace="getDeclaredProviders#()Ljava/util/stream/Stream;" />
+      <node id="107965330094893198" at="23,0,30,0" concept="3" trace="MSGPROVIDER_WhenPropertyConstraintFails_yzbeeq_a" />
+      <node id="107965330094902190" at="30,0,37,0" concept="3" trace="MSGPROVIDER_WhenPropertyConstraintFails_yzbeeq_b" />
+      <scope id="107965330094893198" at="26,87,27,80" />
+      <scope id="107965330094902190" at="33,87,34,80" />
+      <scope id="107965330094893197" at="40,53,41,19" />
+      <scope id="107965330094893197" at="46,58,47,30" />
+      <scope id="107965330094893197" at="40,0,43,0" />
+      <scope id="107965330094893198" at="24,0,29,0">
+        <var name="context" id="107965330094893198" />
+      </scope>
+      <scope id="107965330094902190" at="31,0,36,0">
+        <var name="context" id="107965330094902190" />
+      </scope>
+      <scope id="107965330094893197" at="44,0,49,0" />
+      <unit id="107965330094893197" at="50,0,54,0" name="IonicEncuestasLenguage.feedback.UnaRespuestaDosOpciones_FeedbackFeedback$PROPS" />
+      <unit id="107965330094893198" at="23,129,29,3" name="IonicEncuestasLenguage.feedback.UnaRespuestaDosOpciones_FeedbackFeedback$1" />
+      <unit id="107965330094902190" at="30,129,36,3" name="IonicEncuestasLenguage.feedback.UnaRespuestaDosOpciones_FeedbackFeedback$2" />
+      <unit id="107965330094893197" at="20,0,55,0" name="IonicEncuestasLenguage.feedback.UnaRespuestaDosOpciones_FeedbackFeedback" />
+    </file>
+  </root>
   <root nodeRef="r:be5a5cb1-4a30-416c-9a5b-480c15d048dc(IonicEncuestasLenguage.feedback)/3499623602547971225">
     <file name="Encuesta_FeedbackFeedback.java">
       <node id="3499623602547971225" at="21,0,22,0" concept="3" trace="CONCEPT" />

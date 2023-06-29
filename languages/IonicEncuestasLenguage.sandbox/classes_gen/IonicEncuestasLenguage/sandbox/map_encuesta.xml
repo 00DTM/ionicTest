@@ -8,7 +8,8 @@
       </ion-title>
     </ion-toolbar>
   </ion-header>
-  <ion-content></ion-content>
+  <ion-content>    <!TextGen not found for 'IonicEncuestasLenguage.structure.Pregunta'!>
+  </ion-content>
   <ion-button expand="full" (click)="enviarRespuesta()" [disabled]="!respuesta"></ion-button>
   
   <!--Parte para TS-->

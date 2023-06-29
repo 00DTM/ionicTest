@@ -4,13 +4,68 @@
   <ion-header>    
     <ion-toolbar>      
       <ion-title>        
-        
+        Encuesta1
       </ion-title>
     </ion-toolbar>
   </ion-header>
-  <ion-content>    <!TextGen not found for 'IonicEncuestasLenguage.structure.Pregunta'!>
+  <ion-content>    
+    <ion-list>      
+      <ion-list-header>pregunta1</ion-list-header>
+      
+      <ion-radio-group [(ngModel)]="respuesta">        
+        <ion-item>          
+          <ion-label>Si</ion-label>
+          <ion-radio slot="start" value="Si"></ion-radio>
+        </ion-item>
+        <ion-item>          
+          <ion-label>No</ion-label>
+          <ion-radio slot="start" value="No"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+      
+      <!--Añadir en archivo de TS dentro de la clase-->
+      
+      
+    </ion-list>
+    <ion-list>      
+      <ion-list-header>pa</ion-list-header>
+      
+      <ion-radio-group [(ngModel)]="respuesta">        
+        <ion-item>          
+          <ion-label>pe</ion-label>
+          <ion-radio slot="start" value="pe"></ion-radio>
+        </ion-item>
+        <ion-item>          
+          <ion-label>pi</ion-label>
+          <ion-radio slot="start" value="pi"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+      
+      <!--Añadir en archivo de TS dentro de la clase-->
+      
+      
+    </ion-list>
+    <ion-list>      
+      <ion-radio-group [(ngModel)]="respuesta">        
+        <ion-list-header>          
+          pregunta3
+        </ion-list-header>
+        <ion-item>          
+          <ion-label>si</ion-label>
+          <ion-radio slot="start" value="si"></ion-radio>
+        </ion-item>
+        <ion-item>          
+          <ion-label>no</ion-label>
+          <ion-radio slot="start" value="no"></ion-radio>
+        </ion-item>
+        <ion-item>          
+          <ion-label>tal vez</ion-label>
+          <ion-radio slot="start" value="tal vez"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
   </ion-content>
-  <ion-button expand="full" (click)="enviarRespuesta()" [disabled]="!respuesta"></ion-button>
+  <ion-button expand="full" (click)="enviarRespuesta()" [disabled]="!respuesta">Enviar</ion-button>
   
   <!--Parte para TS-->
   <!--Añadir en los import-->

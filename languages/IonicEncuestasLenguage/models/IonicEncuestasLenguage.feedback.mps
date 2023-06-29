@@ -18,6 +18,11 @@
     <import index="fudv" ref="r:9006e6ce-991d-45e3-a20f-0deb45783955(jetbrains.mps.lang.feedback.problem.childAndProp.feedback)" implicit="true" />
   </imports>
   <registry>
+    <language id="ea3159bf-f48e-4720-bde2-86dba75f0d34" name="jetbrains.mps.lang.context.defs">
+      <concept id="7291380803376202513" name="jetbrains.mps.lang.context.defs.structure.TypedDefReference" flags="ng" index="3QpRc$">
+        <reference id="7291380803376221790" name="declaration" index="3QpVTF" />
+      </concept>
+    </language>
     <language id="033598a4-76a9-47e1-ac89-a300c0fceab8" name="jetbrains.mps.lang.feedback.problem">
       <concept id="7716791493892884282" name="jetbrains.mps.lang.feedback.problem.structure.ProblemPointsToKindRoot" flags="ng" index="sa$J0">
         <reference id="7716791493892884283" name="kind" index="sa$J1" />
@@ -41,6 +46,9 @@
     <language id="ad93155d-79b2-4759-b10c-55123e763903" name="jetbrains.mps.lang.messages">
       <concept id="5258059200642172255" name="jetbrains.mps.lang.messages.structure.CombinedMessageExpression" flags="ng" index="16I2mz">
         <child id="5258059200642172257" name="part" index="16I2mt" />
+      </concept>
+      <concept id="5258059200642278562" name="jetbrains.mps.lang.messages.structure.MacroMessageExpression" flags="ng" index="16Iohu">
+        <child id="2716118816014328328" name="defRef" index="9Y7m$" />
       </concept>
       <concept id="5258059200641510853" name="jetbrains.mps.lang.messages.structure.LiteralMessageExpression" flags="ng" index="16N$OT">
         <property id="5258059200641510854" name="message" index="16N$OU" />
@@ -74,6 +82,50 @@
       <node concept="16I2mz" id="32hahZHsAVl" role="16N$OO">
         <node concept="16N$OT" id="32hahZHsAVm" role="16I2mt">
           <property role="16N$OU" value="Falta el texto para el botón de enviar." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3QByoM" id="5Z$ulcnguK">
+    <ref role="3Z9TSV" to="vcgc:3Q8a0EGtJoh" resolve="Pregunta" />
+    <node concept="3QByp$" id="5Z$ulcnguL" role="3QBEN7">
+      <node concept="1GjwBS" id="5Z$ulcngtP" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="vcgc:3Q8a0EGtKAs" resolve="tituloPregunta" />
+      </node>
+      <node concept="16I2mz" id="5Z$ulcnguP" role="16N$OO">
+        <node concept="16N$OT" id="5Z$ulcngGw" role="16I2mt">
+          <property role="16N$OU" value="Falta el título de la pregunta: " />
+        </node>
+        <node concept="16Iohu" id="5Z$ulcngGu" role="16I2mt">
+          <node concept="3QpRc$" id="5Z$ulcngGv" role="9Y7m$">
+            <ref role="3QpVTF" to="fudv:1mFJTG7MCZ" resolve="property" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3QByoM" id="5Z$ulcniyd">
+    <ref role="3Z9TSV" to="vcgc:3Q8a0EGtKfe" resolve="UnaRespuestaDosOpciones" />
+    <node concept="3QByp$" id="5Z$ulcniye" role="3QBEN7">
+      <node concept="1GjwBS" id="5Z$ulcnixi" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="vcgc:3Q8a0EGtKwI" resolve="opcion1" />
+      </node>
+      <node concept="16I2mz" id="5Z$ulcniyi" role="16N$OO">
+        <node concept="16N$OT" id="5Z$ulcniyj" role="16I2mt">
+          <property role="16N$OU" value="Falta la opción1 por cumplimentar" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="5Z$ulcnkII" role="3QBEN7">
+      <node concept="1GjwBS" id="5Z$ulcnkHN" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="vcgc:3Q8a0EGtL3k" resolve="opcion2" />
+      </node>
+      <node concept="16I2mz" id="5Z$ulcnkIM" role="16N$OO">
+        <node concept="16N$OT" id="5Z$ulcnkIN" role="16I2mt">
+          <property role="16N$OU" value="Falta la opción2 por cumplimentar" />
         </node>
       </node>
     </node>
