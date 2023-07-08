@@ -20,6 +20,7 @@
       <concept id="4433837859454518222" name="IonicEncuestasLenguage.structure.UnaRespuestaDosOpciones" flags="ng" index="2hZMJ4">
         <property id="4433837859454519342" name="opcion1" index="2hZM0$" />
         <property id="4433837859454521556" name="opcion2" index="2hZNzu" />
+        <property id="107965330095043236" name="respuesta" index="1d8ed1" />
       </concept>
       <concept id="622627011512269794" name="IonicEncuestasLenguage.structure.UnaRespuestaTresOpciones" flags="ng" index="3gp7wl">
         <property id="622627011512272519" name="opcion1" index="3gp8lK" />
@@ -62,6 +63,17 @@
       <property role="3gp8lK" value="si" />
       <property role="3gp8Ho" value="no" />
       <property role="3gp8yR" value="tal vez" />
+    </node>
+  </node>
+  <node concept="2hZJNM" id="5Z$ulcp0Pp">
+    <property role="TrG5h" value="TestParcela" />
+    <property role="2hZMzT" value="Parcelita" />
+    <property role="2hZNOE" value="Enviarlos" />
+    <node concept="2hZMJ4" id="5Z$ulcp0Tn" role="2hZHKL">
+      <property role="2hZM6m" value="¿Soy guapo?" />
+      <property role="2hZM0$" value="Si" />
+      <property role="2hZNzu" value="No" />
+      <property role="1d8ed1" value="guapo1" />
     </node>
   </node>
 </model>

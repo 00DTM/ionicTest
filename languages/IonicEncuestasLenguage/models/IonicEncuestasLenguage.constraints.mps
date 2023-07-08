@@ -103,6 +103,19 @@
         </node>
       </node>
     </node>
+    <node concept="EnEH3" id="5Z$ulcnS61" role="1MhHOB">
+      <ref role="EomxK" to="vcgc:5Z$ulcnRa$" resolve="respuesta" />
+      <node concept="QB0g5" id="5Z$ulcnSer" role="QCWH9">
+        <node concept="3clFbS" id="5Z$ulcnSes" role="2VODD2">
+          <node concept="3clFbF" id="5Z$ulcnSok" role="3cqZAp">
+            <node concept="2OqwBi" id="5Z$ulcnSXr" role="3clFbG">
+              <node concept="1Wqviy" id="5Z$ulcnSoj" role="2Oq$k0" />
+              <node concept="17RvpY" id="5Z$ulcnTGn" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1M2fIO" id="5Z$ulcndhk">
     <ref role="1M2myG" to="vcgc:3Q8a0EGtJoh" resolve="Pregunta" />
@@ -161,6 +174,19 @@
         </node>
       </node>
     </node>
+    <node concept="EnEH3" id="5Z$ulcnUsm" role="1MhHOB">
+      <ref role="EomxK" to="vcgc:5Z$ulcnUSk" resolve="respuestaURTO" />
+      <node concept="QB0g5" id="5Z$ulcnZx9" role="QCWH9">
+        <node concept="3clFbS" id="5Z$ulcnZxa" role="2VODD2">
+          <node concept="3clFbF" id="5Z$ulcnZEC" role="3cqZAp">
+            <node concept="2OqwBi" id="5Z$ulco0pW" role="3clFbG">
+              <node concept="1Wqviy" id="5Z$ulcnZEB" role="2Oq$k0" />
+              <node concept="17RvpY" id="5Z$ulco1bz" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1M2fIO" id="5Z$ulcnE8r">
     <ref role="1M2myG" to="vcgc:5Z$ulcnD8k" resolve="UnaRespuestaCuatroOpciones" />
@@ -211,6 +237,19 @@
             <node concept="2OqwBi" id="5Z$ulcnII8" role="3clFbG">
               <node concept="1Wqviy" id="5Z$ulcnIBr" role="2Oq$k0" />
               <node concept="17RvpY" id="5Z$ulcnINg" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="EnEH3" id="5Z$ulcnWSt" role="1MhHOB">
+      <ref role="EomxK" to="vcgc:5Z$ulcnU$8" resolve="respuestaURCO" />
+      <node concept="QB0g5" id="5Z$ulcnX6D" role="QCWH9">
+        <node concept="3clFbS" id="5Z$ulcnX6E" role="2VODD2">
+          <node concept="3clFbF" id="5Z$ulcnXhm" role="3cqZAp">
+            <node concept="2OqwBi" id="5Z$ulcnXWi" role="3clFbG">
+              <node concept="1Wqviy" id="5Z$ulcnXhl" role="2Oq$k0" />
+              <node concept="17RvpY" id="5Z$ulcnYDo" role="2OqNvi" />
             </node>
           </node>
         </node>

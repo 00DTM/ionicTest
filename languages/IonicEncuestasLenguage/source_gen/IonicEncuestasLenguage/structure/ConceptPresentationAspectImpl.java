@@ -11,6 +11,7 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_Encuesta;
   private ConceptPresentation props_Pregunta;
+  private ConceptPresentation props_UnaRespuestaCuatroOpciones;
   private ConceptPresentation props_UnaRespuestaDosOpciones;
   private ConceptPresentation props_UnaRespuestaTresOpciones;
 
@@ -32,6 +33,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Pregunta = cpb.create();
         }
         return props_Pregunta;
+      case LanguageConceptSwitch.UnaRespuestaCuatroOpciones:
+        if (props_UnaRespuestaCuatroOpciones == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("URCO");
+          props_UnaRespuestaCuatroOpciones = cpb.create();
+        }
+        return props_UnaRespuestaCuatroOpciones;
       case LanguageConceptSwitch.UnaRespuestaDosOpciones:
         if (props_UnaRespuestaDosOpciones == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

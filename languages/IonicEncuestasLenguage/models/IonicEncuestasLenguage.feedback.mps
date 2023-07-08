@@ -129,6 +129,17 @@
         </node>
       </node>
     </node>
+    <node concept="3QByp$" id="5Z$ulcnTMl" role="3QBEN7">
+      <node concept="1GjwBS" id="5Z$ulcnTLq" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="vcgc:5Z$ulcnRa$" resolve="respuesta" />
+      </node>
+      <node concept="16I2mz" id="5Z$ulcnTMp" role="16N$OO">
+        <node concept="16N$OT" id="5Z$ulcnTMq" role="16I2mt">
+          <property role="16N$OU" value="Falta por rellenar la variable de TS" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3QByoM" id="5Z$ulcnBAx">
     <ref role="3Z9TSV" to="vcgc:y$0ZvoK7Jy" resolve="UnaRespuestaTresOpciones" />
@@ -162,6 +173,17 @@
       <node concept="16I2mz" id="5Z$ulcnCEP" role="16N$OO">
         <node concept="16N$OT" id="5Z$ulcnCEQ" role="16I2mt">
           <property role="16N$OU" value="Falta la opción1 por cumplimentar" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="5Z$ulco1gH" role="3QBEN7">
+      <node concept="1GjwBS" id="5Z$ulco1fM" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="vcgc:5Z$ulcnUSk" resolve="respuestaURTO" />
+      </node>
+      <node concept="16I2mz" id="5Z$ulco1gL" role="16N$OO">
+        <node concept="16N$OT" id="5Z$ulco1gM" role="16I2mt">
+          <property role="16N$OU" value="Falta por rellenar la respuesta de TS" />
         </node>
       </node>
     </node>
@@ -209,6 +231,17 @@
       <node concept="16I2mz" id="5Z$ulcnKkQ" role="16N$OO">
         <node concept="16N$OT" id="5Z$ulcnKkR" role="16I2mt">
           <property role="16N$OU" value="Falta cumplimentar la opcion4" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="5Z$ulcnYOT" role="3QBEN7">
+      <node concept="1GjwBS" id="5Z$ulcnYNY" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="vcgc:5Z$ulcnU$8" resolve="respuestaURCO" />
+      </node>
+      <node concept="16I2mz" id="5Z$ulcnYOX" role="16N$OO">
+        <node concept="16N$OT" id="5Z$ulcnYOY" role="16I2mt">
+          <property role="16N$OU" value="Falta por rellenar la respuesta de TS" />
         </node>
       </node>
     </node>

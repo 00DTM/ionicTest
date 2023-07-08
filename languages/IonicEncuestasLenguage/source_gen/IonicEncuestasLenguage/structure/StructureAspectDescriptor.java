@@ -15,6 +15,7 @@ import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptEncuesta = createDescriptorForEncuesta();
   /*package*/ final ConceptDescriptor myConceptPregunta = createDescriptorForPregunta();
+  /*package*/ final ConceptDescriptor myConceptUnaRespuestaCuatroOpciones = createDescriptorForUnaRespuestaCuatroOpciones();
   /*package*/ final ConceptDescriptor myConceptUnaRespuestaDosOpciones = createDescriptorForUnaRespuestaDosOpciones();
   /*package*/ final ConceptDescriptor myConceptUnaRespuestaTresOpciones = createDescriptorForUnaRespuestaTresOpciones();
   private final LanguageConceptSwitch myIndexSwitch;
@@ -31,7 +32,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptEncuesta, myConceptPregunta, myConceptUnaRespuestaDosOpciones, myConceptUnaRespuestaTresOpciones);
+    return Arrays.asList(myConceptEncuesta, myConceptPregunta, myConceptUnaRespuestaCuatroOpciones, myConceptUnaRespuestaDosOpciones, myConceptUnaRespuestaTresOpciones);
   }
 
   @Override
@@ -42,6 +43,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptEncuesta;
       case LanguageConceptSwitch.Pregunta:
         return myConceptPregunta;
+      case LanguageConceptSwitch.UnaRespuestaCuatroOpciones:
+        return myConceptUnaRespuestaCuatroOpciones;
       case LanguageConceptSwitch.UnaRespuestaDosOpciones:
         return myConceptUnaRespuestaDosOpciones;
       case LanguageConceptSwitch.UnaRespuestaTresOpciones:
@@ -79,6 +82,21 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("tituloPregunta", 0x3d88280aac77099cL).type(PrimitiveTypeId.STRING).origin("4433837859454519708").done();
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForUnaRespuestaCuatroOpciones() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("IonicEncuestasLenguage", "UnaRespuestaCuatroOpciones", 0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x17f91e54c5e9214L);
+    b.class_(false, false, false);
+    // extends: IonicEncuestasLenguage.structure.Pregunta
+    b.super_(0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x3d88280aac76f611L);
+    b.origin("r:9172f3f8-9796-4839-a3a5-23c1854477cc(IonicEncuestasLenguage.structure)/107965330094985748");
+    b.version(3);
+    b.property("opcion1", 0x17f91e54c5e9215L).type(PrimitiveTypeId.STRING).origin("107965330094985749").done();
+    b.property("opcion2", 0x17f91e54c5e9216L).type(PrimitiveTypeId.STRING).origin("107965330094985750").done();
+    b.property("opcion3", 0x17f91e54c5e9217L).type(PrimitiveTypeId.STRING).origin("107965330094985751").done();
+    b.property("opcion4", 0x17f91e54c5e956cL).type(PrimitiveTypeId.STRING).origin("107965330094986604").done();
+    b.property("respuestaURCO", 0x17f91e54c5fa908L).type(PrimitiveTypeId.STRING).origin("107965330095057160").done();
+    b.alias("URCO");
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForUnaRespuestaDosOpciones() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("IonicEncuestasLenguage", "UnaRespuestaDosOpciones", 0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x3d88280aac7703ceL);
     b.class_(false, false, false);
@@ -88,6 +106,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(3);
     b.property("opcion1", 0x3d88280aac77082eL).type(PrimitiveTypeId.STRING).origin("4433837859454519342").done();
     b.property("opcion2", 0x3d88280aac7710d4L).type(PrimitiveTypeId.STRING).origin("4433837859454521556").done();
+    b.property("respuesta", 0x17f91e54c5f72a4L).type(PrimitiveTypeId.STRING).origin("107965330095043236").done();
     b.alias("URDO");
     return b.create();
   }
@@ -101,6 +120,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("opcion1", 0x8a403f7d8c08687L).type(PrimitiveTypeId.STRING).origin("622627011512272519").done();
     b.property("opcion2", 0x8a403f7d8c088afL).type(PrimitiveTypeId.STRING).origin("622627011512273071").done();
     b.property("opcion3", 0x8a403f7d8c08b40L).type(PrimitiveTypeId.STRING).origin("622627011512273728").done();
+    b.property("respuestaURTO", 0x17f91e54c5fae14L).type(PrimitiveTypeId.STRING).origin("107965330095058452").done();
     b.alias("URTO");
     return b.create();
   }

@@ -62,6 +62,7 @@
         <child id="6666499814681299055" name="rootElement" index="2pNm8H" />
         <child id="6666499814681299060" name="prolog" index="2pNm8Q" />
       </concept>
+      <concept id="2301667890727559839" name="jetbrains.mps.core.xml.structure.XmlSingleLineText" flags="ng" index="1Aj0xv" />
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
       <concept id="1114729360583" name="jetbrains.mps.lang.generator.structure.CopySrcListMacro" flags="ln" index="2b32R4">
@@ -299,11 +300,66 @@
         </node>
         <node concept="3o6iSG" id="y$0ZvoKEkY" role="3o6s8t" />
         <node concept="3o6iSG" id="1jYn0mNG_8i" role="3o6s8t">
-          <property role="3o6i5n" value="import { paco } from 'Fran';" />
+          <property role="3o6i5n" value="import { Component } from '@angular/core';" />
         </node>
+        <node concept="3o6iSG" id="5Z$ulcosno" role="3o6s8t">
+          <property role="3o6i5n" value="import { HttpClient, HttpErrorResponse } from '@angular/common/http';" />
+        </node>
+        <node concept="3o6iSG" id="5Z$ulcotdK" role="3o6s8t">
+          <property role="3o6i5n" value="import { catchError } from 'rxjs/operators';" />
+        </node>
+        <node concept="3o6iSG" id="5Z$ulcotVt" role="3o6s8t">
+          <property role="3o6i5n" value="import { throwError } from 'rxjs';" />
+        </node>
+        <node concept="3o6iSG" id="5Z$ulcov7G" role="3o6s8t" />
+        <node concept="2pNm8U" id="5Z$ulcoyAm" role="3o6s8t">
+          <node concept="3o66tx" id="5Z$ulcoyKp" role="3o66t8">
+            <property role="3o66tw" value="Variables" />
+          </node>
+        </node>
+        <node concept="3o6iSG" id="5Z$ulcoyrn" role="3o6s8t" />
+        <node concept="3o6iSG" id="5Z$ulcoysY" role="3o6s8t" />
         <node concept="3o6iSG" id="9JRAWV5htL" role="3o6s8t" />
+        <node concept="2pNm8U" id="5Z$ulcou$F" role="3o6s8t">
+          <node concept="3o66tx" id="5Z$ulcouRK" role="3o66t8">
+            <property role="3o66tw" value="Añadir dentro de la clase del archivo de TS" />
+          </node>
+        </node>
         <node concept="3o6iSG" id="9JRAWV5kNa" role="3o6s8t" />
-        <node concept="3o6iSG" id="y$0ZvoK54v" role="3o6s8t" />
+        <node concept="3o6iSG" id="y$0ZvoK54v" role="3o6s8t">
+          <property role="3o6i5n" value="constructor(private http: HttpClient){}" />
+        </node>
+        <node concept="3o6iSG" id="5Z$ulcoz7d" role="3o6s8t" />
+        <node concept="3o6iSG" id="5Z$ulcozqc" role="3o6s8t">
+          <property role="3o6i5n" value="enviarRespuestas(){" />
+        </node>
+        <node concept="3o6iSG" id="5Z$ulcozJ6" role="3o6s8t" />
+        <node concept="2pNm8U" id="5Z$ulcoBRw" role="3o6s8t">
+          <node concept="3o66tx" id="5Z$ulcoBXz" role="3o66t8">
+            <property role="3o66tw" value="Copiar contenido de respuesta de cada pregunta" />
+          </node>
+        </node>
+        <node concept="3o6iSG" id="5Z$ulcoBD1" role="3o6s8t" />
+        <node concept="3o6iSG" id="5Z$ulcoBJ2" role="3o6s8t" />
+        <node concept="3o6iSG" id="5Z$ulcoTEF" role="3o6s8t" />
+        <node concept="3o6iSG" id="5Z$ulcoTXM" role="3o6s8t">
+          <property role="3o6i5n" value="else{" />
+        </node>
+        <node concept="3o6iSG" id="5Z$ulcoU5I" role="3o6s8t">
+          <property role="3o6i5n" value="console.log('Por favor, selecciona una opción');" />
+        </node>
+        <node concept="3o6iSG" id="5Z$ulcoUuR" role="3o6s8t">
+          <property role="3o6i5n" value="}" />
+        </node>
+        <node concept="3o6iSG" id="5Z$ulcoUMP" role="3o6s8t">
+          <property role="3o6i5n" value="alert('Respuesta enviada al servidor, gracias');" />
+        </node>
+        <node concept="3o6iSG" id="5Z$ulco$27" role="3o6s8t">
+          <property role="3o6i5n" value="}" />
+        </node>
+        <node concept="3o6iSG" id="5Z$ulcoy71" role="3o6s8t">
+          <property role="3o6i5n" value="}" />
+        </node>
       </node>
       <node concept="2pNm8N" id="5c7hVCEs0WG" role="2pNm8Q">
         <node concept="BH3og" id="5c7hVCEs0XK" role="BGLLu">
@@ -529,9 +585,133 @@
         </node>
       </node>
       <node concept="3o6iSG" id="y$0ZvoKIvE" role="3o6s8t" />
+      <node concept="2pNm8U" id="5Z$ulcoCxa" role="3o6s8t">
+        <node concept="3o66tx" id="5Z$ulcoCKJ" role="3o66t8">
+          <property role="3o66tw" value="Dentro del archivo de TS" />
+        </node>
+      </node>
       <node concept="3o6iSG" id="y$0ZvoKI$X" role="3o6s8t" />
-      <node concept="3o6iSG" id="y$0ZvoKHVP" role="3o6s8t" />
+      <node concept="3o6iSG" id="5Z$ulcoD70" role="3o6s8t">
+        <property role="3o6i5n" value="if (this." />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoDZz" role="3o6s8t">
+        <property role="3o6i5n" value="respuesta" />
+        <node concept="17Uvod" id="5Z$ulcoE7c" role="lGtFl">
+          <property role="2qtEX9" value="value" />
+          <property role="P4ACc" value="479c7a8c-02f9-43b5-9139-d910cb22f298/1622293396948952339/1622293396948953704" />
+          <node concept="3zFVjK" id="5Z$ulcoE7f" role="3zH0cK">
+            <node concept="3clFbS" id="5Z$ulcoE7g" role="2VODD2">
+              <node concept="3clFbF" id="5Z$ulcoE7m" role="3cqZAp">
+                <node concept="2OqwBi" id="5Z$ulcoE7h" role="3clFbG">
+                  <node concept="3TrcHB" id="5Z$ulcoE7k" role="2OqNvi">
+                    <ref role="3TsBF5" to="vcgc:5Z$ulcnRa$" resolve="respuesta" />
+                  </node>
+                  <node concept="30H73N" id="5Z$ulcoE7l" role="2Oq$k0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoCO3" role="3o6s8t">
+        <property role="3o6i5n" value="){" />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoENG" role="3o6s8t">
+        <property role="3o6i5n" value="this.http.post('http://localhost:8080/endpoint', {" />
+      </node>
+      <node concept="1Aj0xv" id="5Z$ulcoGgV" role="3o6s8t">
+        <property role="3o6i5n" value="respuesta" />
+        <node concept="17Uvod" id="5Z$ulcoGw$" role="lGtFl">
+          <property role="2qtEX9" value="value" />
+          <property role="P4ACc" value="479c7a8c-02f9-43b5-9139-d910cb22f298/1622293396948952339/1622293396948953704" />
+          <node concept="3zFVjK" id="5Z$ulcoGwB" role="3zH0cK">
+            <node concept="3clFbS" id="5Z$ulcoGwC" role="2VODD2">
+              <node concept="3clFbF" id="5Z$ulcoGwI" role="3cqZAp">
+                <node concept="2OqwBi" id="5Z$ulcoGwD" role="3clFbG">
+                  <node concept="3TrcHB" id="5Z$ulcoGwG" role="2OqNvi">
+                    <ref role="3TsBF5" to="vcgc:5Z$ulcnRa$" resolve="respuesta" />
+                  </node>
+                  <node concept="30H73N" id="5Z$ulcoGwH" role="2Oq$k0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoCTq" role="3o6s8t">
+        <property role="3o6i5n" value=": this." />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoL8S" role="3o6s8t">
+        <property role="3o6i5n" value="respuesta" />
+        <node concept="17Uvod" id="5Z$ulcoLj$" role="lGtFl">
+          <property role="2qtEX9" value="value" />
+          <property role="P4ACc" value="479c7a8c-02f9-43b5-9139-d910cb22f298/1622293396948952339/1622293396948953704" />
+          <node concept="3zFVjK" id="5Z$ulcoLjB" role="3zH0cK">
+            <node concept="3clFbS" id="5Z$ulcoLjC" role="2VODD2">
+              <node concept="3clFbF" id="5Z$ulcoLjI" role="3cqZAp">
+                <node concept="2OqwBi" id="5Z$ulcoLjD" role="3clFbG">
+                  <node concept="3TrcHB" id="5Z$ulcoLjG" role="2OqNvi">
+                    <ref role="3TsBF5" to="vcgc:5Z$ulcnRa$" resolve="respuesta" />
+                  </node>
+                  <node concept="30H73N" id="5Z$ulcoLjH" role="2Oq$k0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="raruj" id="y$0ZvoIVta" role="lGtFl" />
+      <node concept="3o6iSG" id="5Z$ulcoLp0" role="3o6s8t">
+        <property role="3o6i5n" value="}).pipe(" />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoL_n" role="3o6s8t">
+        <property role="3o6i5n" value="catchError((error: HttpErrorResponse) =&gt; {" />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoMfA" role="3o6s8t">
+        <property role="3o6i5n" value="console.error('Error al enviar la respuesta:', error);" />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoN06" role="3o6s8t">
+        <property role="3o6i5n" value="return throwError('Ha ocurrido un error. Por favor, inténtalo nuevamente.');" />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoNNJ" role="3o6s8t">
+        <property role="3o6i5n" value="})" />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoO9d" role="3o6s8t">
+        <property role="3o6i5n" value=").subscribe(" />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoOwW" role="3o6s8t">
+        <property role="3o6i5n" value="(response: any)=&gt; {" />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoOSR" role="3o6s8t">
+        <property role="3o6i5n" value="console.log('Respuesta del servidor:', response);" />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoPwN" role="3o6s8t">
+        <property role="3o6i5n" value="}," />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoPN3" role="3o6s8t">
+        <property role="3o6i5n" value="(error) =&gt; {" />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoQda" role="3o6s8t">
+        <property role="3o6i5n" value="console.error('Error al enviar la respuesta:', error);" />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoQOm" role="3o6s8t">
+        <property role="3o6i5n" value="}" />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoQX$" role="3o6s8t">
+        <property role="3o6i5n" value=");" />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoRgU" role="3o6s8t">
+        <property role="3o6i5n" value="}" />
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoXxa" role="3o6s8t" />
+      <node concept="3o6iSG" id="5Z$ulcoXDf" role="3o6s8t" />
+      <node concept="2pNm8U" id="5Z$ulcoX5y" role="3o6s8t">
+        <node concept="3o66tx" id="5Z$ulcoXrc" role="3o66t8">
+          <property role="3o66tw" value="Fin parte TS" />
+        </node>
+      </node>
+      <node concept="3o6iSG" id="5Z$ulcoWLX" role="3o6s8t" />
+      <node concept="3o6iSG" id="5Z$ulcoT1A" role="3o6s8t" />
     </node>
   </node>
   <node concept="13MO4I" id="y$0ZvoK8Rk">

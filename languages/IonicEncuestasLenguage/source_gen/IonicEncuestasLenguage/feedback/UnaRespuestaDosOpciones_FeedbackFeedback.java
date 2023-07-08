@@ -34,8 +34,15 @@ public final class UnaRespuestaDosOpciones_FeedbackFeedback extends BaseFeedback
       return new MessageProvider.StringMsg("Falta la opción2 por cumplimentar");
     }
   };
+  private static final FeedbackProvider<FailingPropertyConstraintContext> MSGPROVIDER_WhenPropertyConstraintFails_yzbeeq_c = new BaseMessageProvider<FailingPropertyConstraintContext>(new FailingPropertyConstraintProblemId(PROPS.respuesta$qm3v)) {
+    @NotNull
+    @Override
+    public MessageProvider.Msg yieldMessage(FailingPropertyConstraintContext context) {
+      return new MessageProvider.StringMsg("Falta por rellenar la variable de TS");
+    }
+  };
 
-  private static final List<FeedbackProvider> PROVIDERS = Collections.unmodifiableList(Arrays.<FeedbackProvider>asList(MSGPROVIDER_WhenPropertyConstraintFails_yzbeeq_a, MSGPROVIDER_WhenPropertyConstraintFails_yzbeeq_b));
+  private static final List<FeedbackProvider> PROVIDERS = Collections.unmodifiableList(Arrays.<FeedbackProvider>asList(MSGPROVIDER_WhenPropertyConstraintFails_yzbeeq_a, MSGPROVIDER_WhenPropertyConstraintFails_yzbeeq_b, MSGPROVIDER_WhenPropertyConstraintFails_yzbeeq_c));
 
   public UnaRespuestaDosOpciones_FeedbackFeedback() {
     super(CONCEPT);
@@ -50,5 +57,6 @@ public final class UnaRespuestaDosOpciones_FeedbackFeedback extends BaseFeedback
   private static final class PROPS {
     /*package*/ static final SProperty opcion1$ce04 = MetaAdapterFactory.getProperty(0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x3d88280aac7703ceL, 0x3d88280aac77082eL, "opcion1");
     /*package*/ static final SProperty opcion2$zgyM = MetaAdapterFactory.getProperty(0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x3d88280aac7703ceL, 0x3d88280aac7710d4L, "opcion2");
+    /*package*/ static final SProperty respuesta$qm3v = MetaAdapterFactory.getProperty(0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x3d88280aac7703ceL, 0x17f91e54c5f72a4L, "respuesta");
   }
 }

@@ -95,6 +95,11 @@
       <property role="TrG5h" value="opcion2" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="5Z$ulcnRa$" role="1TKVEl">
+      <property role="IQ2nx" value="107965330095043236" />
+      <property role="TrG5h" value="respuesta" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="y$0ZvoK7Jy">
     <property role="EcuMT" value="622627011512269794" />
@@ -114,6 +119,11 @@
     <node concept="1TJgyi" id="y$0ZvoK8H0" role="1TKVEl">
       <property role="IQ2nx" value="622627011512273728" />
       <property role="TrG5h" value="opcion3" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5Z$ulcnUSk" role="1TKVEl">
+      <property role="IQ2nx" value="107965330095058452" />
+      <property role="TrG5h" value="respuestaURTO" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
@@ -140,6 +150,11 @@
     <node concept="1TJgyi" id="5Z$ulcnDlG" role="1TKVEl">
       <property role="IQ2nx" value="107965330094986604" />
       <property role="TrG5h" value="opcion4" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5Z$ulcnU$8" role="1TKVEl">
+      <property role="IQ2nx" value="107965330095057160" />
+      <property role="TrG5h" value="respuestaURCO" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>

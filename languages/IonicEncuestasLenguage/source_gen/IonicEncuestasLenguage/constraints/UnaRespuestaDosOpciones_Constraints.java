@@ -53,11 +53,28 @@ public class UnaRespuestaDosOpciones_Constraints extends BaseConstraintsDescript
       return (propertyValue != null && propertyValue.length() > 0);
     }
   }
+  public static class Respuesta_Property extends BasePropertyConstraintsDescriptor {
+    public Respuesta_Property(ConstraintsDescriptor container) {
+      super(PROPS.respuesta$qm3v, container, false, false, true);
+    }
+    @Override
+    public boolean validateValue(SNode node, Object propertyValue, CheckingNodeContext checkingNodeContext) {
+      boolean result = staticValidateProperty(node, SPropertyOperations.castString(propertyValue));
+      if (!(result) && checkingNodeContext != null) {
+        checkingNodeContext.setBreakingNode(new SNodePointer("r:4693f111-d2e8-473e-8c7d-d7e82902115e(IonicEncuestasLenguage.constraints)", "107965330095047579"));
+      }
+      return result;
+    }
+    private static boolean staticValidateProperty(SNode node, String propertyValue) {
+      return (propertyValue != null && propertyValue.length() > 0);
+    }
+  }
   @Override
   protected Map<SProperty, PropertyConstraintsDescriptor> getSpecifiedProperties() {
     Map<SProperty, PropertyConstraintsDescriptor> properties = new HashMap<SProperty, PropertyConstraintsDescriptor>();
     properties.put(PROPS.opcion1$ce04, new Opcion1_Property(this));
     properties.put(PROPS.opcion2$zgyM, new Opcion2_Property(this));
+    properties.put(PROPS.respuesta$qm3v, new Respuesta_Property(this));
     return properties;
   }
 
@@ -68,5 +85,6 @@ public class UnaRespuestaDosOpciones_Constraints extends BaseConstraintsDescript
   private static final class PROPS {
     /*package*/ static final SProperty opcion1$ce04 = MetaAdapterFactory.getProperty(0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x3d88280aac7703ceL, 0x3d88280aac77082eL, "opcion1");
     /*package*/ static final SProperty opcion2$zgyM = MetaAdapterFactory.getProperty(0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x3d88280aac7703ceL, 0x3d88280aac7710d4L, "opcion2");
+    /*package*/ static final SProperty respuesta$qm3v = MetaAdapterFactory.getProperty(0xf5e16b511bd46e4L, 0x94b097bcd9688f43L, 0x3d88280aac7703ceL, 0x17f91e54c5f72a4L, "respuesta");
   }
 }

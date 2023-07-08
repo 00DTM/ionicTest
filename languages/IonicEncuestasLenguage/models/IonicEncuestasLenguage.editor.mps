@@ -35,6 +35,7 @@
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
+      <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0" />
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
@@ -76,6 +77,7 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="3EYTF0" id="1rm4exEKrnB" role="3EZMnx" />
       <node concept="3F2HdR" id="27c4bXvIJ3O" role="3EZMnx">
         <ref role="1NtTu8" to="vcgc:3Q8a0EGtJgV" resolve="preguntas" />
         <node concept="2iRkQZ" id="27c4bXvIJ3R" role="2czzBx" />
@@ -115,6 +117,15 @@
         </node>
         <node concept="3F0A7n" id="27c4bXvJu6y" role="3EZMnx">
           <ref role="1NtTu8" to="vcgc:3Q8a0EGtL3k" resolve="opcion2" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="5Z$ulcnRLb" role="3EZMnx">
+        <node concept="2iRfu4" id="5Z$ulcnRLc" role="2iSdaV" />
+        <node concept="3F0ifn" id="5Z$ulcnRFr" role="3EZMnx">
+          <property role="3F0ifm" value="Variable para TS:" />
+        </node>
+        <node concept="3F0A7n" id="5Z$ulcnS0t" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:5Z$ulcnRa$" resolve="respuesta" />
         </node>
       </node>
       <node concept="l2Vlx" id="3Q8a0EGtNId" role="2iSdaV" />
@@ -157,6 +168,18 @@
         </node>
         <node concept="3F0A7n" id="y$0ZvoKaJo" role="3EZMnx">
           <ref role="1NtTu8" to="vcgc:y$0ZvoK8H0" resolve="opcion3" />
+        </node>
+        <node concept="ljvvj" id="5Z$ulcnVhk" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="5Z$ulcnWbs" role="3EZMnx">
+        <node concept="2iRfu4" id="5Z$ulcnWbt" role="2iSdaV" />
+        <node concept="3F0ifn" id="5Z$ulcnWhX" role="3EZMnx">
+          <property role="3F0ifm" value="Variable de TS:" />
+        </node>
+        <node concept="3F0A7n" id="5Z$ulcnWn_" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:5Z$ulcnUSk" resolve="respuestaURTO" />
         </node>
       </node>
       <node concept="l2Vlx" id="y$0ZvoKacp" role="2iSdaV" />
@@ -205,6 +228,15 @@
         </node>
         <node concept="3F0A7n" id="5Z$ulcnE71" role="3EZMnx">
           <ref role="1NtTu8" to="vcgc:5Z$ulcnDlG" resolve="opcion4" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="5Z$ulcnWx_" role="3EZMnx">
+        <node concept="2iRfu4" id="5Z$ulcnWxA" role="2iSdaV" />
+        <node concept="3F0ifn" id="5Z$ulcnWDl" role="3EZMnx">
+          <property role="3F0ifm" value="Variable de TS:" />
+        </node>
+        <node concept="3F0A7n" id="5Z$ulcnWIX" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:5Z$ulcnU$8" resolve="respuestaURCO" />
         </node>
       </node>
       <node concept="l2Vlx" id="5Z$ulcnDuE" role="2iSdaV" />
