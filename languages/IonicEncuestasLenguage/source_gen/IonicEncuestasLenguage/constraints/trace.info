@@ -17,109 +17,109 @@
   <root nodeRef="r:4693f111-d2e8-473e-8c7d-d7e82902115e(IonicEncuestasLenguage.constraints)/107965330094871579">
     <file name="UnaRespuestaDosOpciones_Constraints.java">
       <node id="107965330094871579" at="20,48,21,47" concept="8" />
-      <node id="107965330094886253" at="25,62,26,63" concept="8" />
-      <node id="107965330094886253" at="29,109,30,99" concept="4" />
-      <node id="107965330094886253" at="31,53,32,162" concept="1" />
-      <node id="107965330094886253" at="33,7,34,20" concept="5" />
-      <node id="107965330094887208" at="36,85,37,67" concept="5" />
-      <node id="107965330094894691" at="41,62,42,63" concept="8" />
-      <node id="107965330094894691" at="45,109,46,99" concept="4" />
-      <node id="107965330094894691" at="47,53,48,162" concept="1" />
-      <node id="107965330094894691" at="49,7,50,20" concept="5" />
-      <node id="107965330094895881" at="52,85,53,67" concept="5" />
-      <node id="107965330095047041" at="57,64,58,65" concept="8" />
-      <node id="107965330095047041" at="61,109,62,99" concept="4" />
-      <node id="107965330095047041" at="63,53,64,162" concept="1" />
-      <node id="107965330095047041" at="65,7,66,20" concept="5" />
-      <node id="107965330095048212" at="68,85,69,67" concept="5" />
+      <node id="107965330094894691" at="25,62,26,63" concept="8" />
+      <node id="107965330094894691" at="29,109,30,99" concept="4" />
+      <node id="107965330094894691" at="31,53,32,162" concept="1" />
+      <node id="107965330094894691" at="33,7,34,20" concept="5" />
+      <node id="107965330094895881" at="36,85,37,67" concept="5" />
+      <node id="107965330095047041" at="41,64,42,65" concept="8" />
+      <node id="107965330095047041" at="45,109,46,99" concept="4" />
+      <node id="107965330095047041" at="47,53,48,162" concept="1" />
+      <node id="107965330095047041" at="49,7,50,20" concept="5" />
+      <node id="107965330095048212" at="52,85,53,67" concept="5" />
+      <node id="1554047574157130350" at="57,62,58,63" concept="8" />
+      <node id="1554047574157130350" at="61,109,62,99" concept="4" />
+      <node id="1554047574157130350" at="63,53,64,163" concept="1" />
+      <node id="1554047574157130350" at="65,7,66,20" concept="5" />
+      <node id="1554047574157134733" at="68,85,69,67" concept="5" />
       <node id="107965330094871579" at="73,84,74,119" concept="4" />
-      <node id="107965330094886253" at="74,119,75,67" concept="1" />
-      <node id="107965330094894691" at="75,67,76,67" concept="1" />
-      <node id="107965330095047041" at="76,67,77,71" concept="1" />
-      <node id="107965330094871579" at="77,71,78,22" concept="5" />
+      <node id="107965330094894691" at="74,119,75,67" concept="1" />
+      <node id="107965330095047041" at="75,67,76,71" concept="1" />
+      <node id="1554047574157130350" at="76,71,77,67" concept="1" />
+      <node id="107965330094871579" at="77,67,78,22" concept="5" />
       <node id="107965330094871579" at="82,0,83,0" concept="6" trace="UnaRespuestaDosOpciones$5Z" />
-      <node id="107965330094871579" at="86,0,87,0" concept="6" trace="opcion1$ce04" />
-      <node id="107965330094871579" at="87,0,88,0" concept="6" trace="opcion2$zgyM" />
-      <node id="107965330094871579" at="88,0,89,0" concept="6" trace="respuesta$qm3v" />
+      <node id="107965330094871579" at="86,0,87,0" concept="6" trace="opcion2$zgyM" />
+      <node id="107965330094871579" at="87,0,88,0" concept="6" trace="respuesta$qm3v" />
+      <node id="107965330094871579" at="88,0,89,0" concept="6" trace="opcion1$ce04" />
       <node id="107965330094871579" at="20,0,23,0" concept="0" trace="UnaRespuestaDosOpciones_Constraints#()V" />
-      <node id="107965330094886253" at="25,0,28,0" concept="0" trace="Opcion1_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
-      <node id="107965330094886253" at="30,99,33,7" concept="2" />
-      <node id="107965330094886253" at="36,0,39,0" concept="7" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
-      <node id="107965330094894691" at="41,0,44,0" concept="0" trace="Opcion2_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
-      <node id="107965330094894691" at="46,99,49,7" concept="2" />
-      <node id="107965330094894691" at="52,0,55,0" concept="7" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
-      <node id="107965330095047041" at="57,0,60,0" concept="0" trace="Respuesta_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
-      <node id="107965330095047041" at="62,99,65,7" concept="2" />
-      <node id="107965330095047041" at="68,0,71,0" concept="7" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
-      <node id="107965330094886253" at="28,0,36,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
-      <node id="107965330094894691" at="44,0,52,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
-      <node id="107965330095047041" at="60,0,68,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <node id="107965330094894691" at="25,0,28,0" concept="0" trace="Opcion2_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="107965330094894691" at="30,99,33,7" concept="2" />
+      <node id="107965330094894691" at="36,0,39,0" concept="7" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="107965330095047041" at="41,0,44,0" concept="0" trace="Respuesta_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="107965330095047041" at="46,99,49,7" concept="2" />
+      <node id="107965330095047041" at="52,0,55,0" concept="7" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="1554047574157130350" at="57,0,60,0" concept="0" trace="Opcion1_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="1554047574157130350" at="62,99,65,7" concept="2" />
+      <node id="1554047574157130350" at="68,0,71,0" concept="7" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="107965330094894691" at="28,0,36,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <node id="107965330095047041" at="44,0,52,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <node id="1554047574157130350" at="60,0,68,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
       <node id="107965330094871579" at="72,0,80,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
       <scope id="107965330094871579" at="20,48,21,47" />
-      <scope id="107965330094886253" at="25,62,26,63" />
-      <scope id="107965330094886253" at="31,53,32,162" />
-      <scope id="107965330094886616" at="36,85,37,67" />
-      <scope id="107965330094894691" at="41,62,42,63" />
-      <scope id="107965330094894691" at="47,53,48,162" />
-      <scope id="107965330094895289" at="52,85,53,67" />
-      <scope id="107965330095047041" at="57,64,58,65" />
-      <scope id="107965330095047041" at="63,53,64,162" />
-      <scope id="107965330095047580" at="68,85,69,67" />
+      <scope id="107965330094894691" at="25,62,26,63" />
+      <scope id="107965330094894691" at="31,53,32,162" />
+      <scope id="107965330094895289" at="36,85,37,67" />
+      <scope id="107965330095047041" at="41,64,42,65" />
+      <scope id="107965330095047041" at="47,53,48,162" />
+      <scope id="107965330095047580" at="52,85,53,67" />
+      <scope id="1554047574157130350" at="57,62,58,63" />
+      <scope id="1554047574157130350" at="63,53,64,163" />
+      <scope id="1554047574157133349" at="68,85,69,67" />
       <scope id="107965330094871579" at="20,0,23,0" />
-      <scope id="107965330094886253" at="25,0,28,0">
-        <var name="container" id="107965330094886253" />
-      </scope>
-      <scope id="107965330094886253" at="36,0,39,0">
-        <var name="node" id="107965330094886253" />
-        <var name="propertyValue" id="107965330094886253" />
-      </scope>
-      <scope id="107965330094894691" at="41,0,44,0">
+      <scope id="107965330094894691" at="25,0,28,0">
         <var name="container" id="107965330094894691" />
       </scope>
-      <scope id="107965330094894691" at="52,0,55,0">
+      <scope id="107965330094894691" at="36,0,39,0">
         <var name="node" id="107965330094894691" />
         <var name="propertyValue" id="107965330094894691" />
       </scope>
-      <scope id="107965330095047041" at="57,0,60,0">
+      <scope id="107965330095047041" at="41,0,44,0">
         <var name="container" id="107965330095047041" />
       </scope>
-      <scope id="107965330095047041" at="68,0,71,0">
+      <scope id="107965330095047041" at="52,0,55,0">
         <var name="node" id="107965330095047041" />
         <var name="propertyValue" id="107965330095047041" />
       </scope>
-      <scope id="107965330094886253" at="29,109,34,20">
-        <var name="result" id="107965330094886253" />
+      <scope id="1554047574157130350" at="57,0,60,0">
+        <var name="container" id="1554047574157130350" />
       </scope>
-      <scope id="107965330094894691" at="45,109,50,20">
+      <scope id="1554047574157130350" at="68,0,71,0">
+        <var name="node" id="1554047574157130350" />
+        <var name="propertyValue" id="1554047574157130350" />
+      </scope>
+      <scope id="107965330094894691" at="29,109,34,20">
         <var name="result" id="107965330094894691" />
       </scope>
-      <scope id="107965330095047041" at="61,109,66,20">
+      <scope id="107965330095047041" at="45,109,50,20">
         <var name="result" id="107965330095047041" />
+      </scope>
+      <scope id="1554047574157130350" at="61,109,66,20">
+        <var name="result" id="1554047574157130350" />
       </scope>
       <scope id="107965330094871579" at="73,84,78,22">
         <var name="properties" id="107965330094871579" />
       </scope>
-      <scope id="107965330094886253" at="28,0,36,0">
-        <var name="checkingNodeContext" id="107965330094886253" />
-        <var name="node" id="107965330094886253" />
-        <var name="propertyValue" id="107965330094886253" />
-      </scope>
-      <scope id="107965330094894691" at="44,0,52,0">
+      <scope id="107965330094894691" at="28,0,36,0">
         <var name="checkingNodeContext" id="107965330094894691" />
         <var name="node" id="107965330094894691" />
         <var name="propertyValue" id="107965330094894691" />
       </scope>
-      <scope id="107965330095047041" at="60,0,68,0">
+      <scope id="107965330095047041" at="44,0,52,0">
         <var name="checkingNodeContext" id="107965330095047041" />
         <var name="node" id="107965330095047041" />
         <var name="propertyValue" id="107965330095047041" />
       </scope>
+      <scope id="1554047574157130350" at="60,0,68,0">
+        <var name="checkingNodeContext" id="1554047574157130350" />
+        <var name="node" id="1554047574157130350" />
+        <var name="propertyValue" id="1554047574157130350" />
+      </scope>
       <scope id="107965330094871579" at="72,0,80,0" />
       <unit id="107965330094871579" at="81,0,84,0" name="IonicEncuestasLenguage.constraints.UnaRespuestaDosOpciones_Constraints$CONCEPTS" />
       <unit id="107965330094871579" at="85,0,90,0" name="IonicEncuestasLenguage.constraints.UnaRespuestaDosOpciones_Constraints$PROPS" />
-      <unit id="107965330094886253" at="24,0,40,0" name="IonicEncuestasLenguage.constraints.UnaRespuestaDosOpciones_Constraints$Opcion1_Property" />
-      <unit id="107965330094894691" at="40,0,56,0" name="IonicEncuestasLenguage.constraints.UnaRespuestaDosOpciones_Constraints$Opcion2_Property" />
-      <unit id="107965330095047041" at="56,0,72,0" name="IonicEncuestasLenguage.constraints.UnaRespuestaDosOpciones_Constraints$Respuesta_Property" />
+      <unit id="107965330094894691" at="24,0,40,0" name="IonicEncuestasLenguage.constraints.UnaRespuestaDosOpciones_Constraints$Opcion2_Property" />
+      <unit id="107965330095047041" at="40,0,56,0" name="IonicEncuestasLenguage.constraints.UnaRespuestaDosOpciones_Constraints$Respuesta_Property" />
+      <unit id="1554047574157130350" at="56,0,72,0" name="IonicEncuestasLenguage.constraints.UnaRespuestaDosOpciones_Constraints$Opcion1_Property" />
       <unit id="107965330094871579" at="19,0,91,0" name="IonicEncuestasLenguage.constraints.UnaRespuestaDosOpciones_Constraints" />
     </file>
   </root>

@@ -54,6 +54,11 @@
         <property id="5258059200641510854" name="message" index="16N$OU" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
     <language id="517077fd-e44f-4338-a475-1d29781dfdb8" name="jetbrains.mps.lang.feedback.skeleton">
       <concept id="7291380803381892615" name="jetbrains.mps.lang.feedback.skeleton.structure.FeedbackPerConceptRoot" flags="ng" index="3QByoM">
         <reference id="7188575577281228125" name="concept" index="3Z9TSV" />
@@ -242,6 +247,177 @@
       <node concept="16I2mz" id="5Z$ulcnYOX" role="16N$OO">
         <node concept="16N$OT" id="5Z$ulcnYOY" role="16I2mt">
           <property role="16N$OU" value="Falta por rellenar la respuesta de TS" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3QByoM" id="2s0mn6YDeQ2">
+    <ref role="3Z9TSV" to="vcgc:2s0mn6YDdxt" resolve="VariasRespuestaTresOpciones" />
+    <node concept="3QByp$" id="2s0mn6YDeQ3" role="3QBEN7">
+      <node concept="1GjwBS" id="2s0mn6YDeQ4" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
+        <ref role="1Gj$d9" to="vcgc:2s0mn6YDdxu" resolve="opcion1" />
+      </node>
+      <node concept="16I2mz" id="2s0mn6YDeQ5" role="16N$OO">
+        <node concept="16N$OT" id="2s0mn6YDeQ6" role="16I2mt">
+          <property role="16N$OU" value="Falta la opción1 por cumplimentar" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="2s0mn6YDeQ7" role="3QBEN7">
+      <node concept="1GjwBS" id="2s0mn6YDeQ8" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
+        <ref role="1Gj$d9" to="vcgc:2s0mn6YDdxv" resolve="opcion2" />
+      </node>
+      <node concept="16I2mz" id="2s0mn6YDeQ9" role="16N$OO">
+        <node concept="16N$OT" id="2s0mn6YDeQa" role="16I2mt">
+          <property role="16N$OU" value="Falta la opción2 por cumplimentar" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="2s0mn6YDeQb" role="3QBEN7">
+      <node concept="1GjwBS" id="2s0mn6YDeQc" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
+        <ref role="1Gj$d9" to="vcgc:2s0mn6YDdxw" resolve="respuesta" />
+      </node>
+      <node concept="16I2mz" id="2s0mn6YDeQd" role="16N$OO">
+        <node concept="16N$OT" id="2s0mn6YDeQe" role="16I2mt">
+          <property role="16N$OU" value="Falta por rellenar la variable de TS" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3QByoM" id="2s0mn6YDri9">
+    <property role="TrG5h" value="VariasRespuestaTDosOpciones_Feedback" />
+    <ref role="3Z9TSV" to="vcgc:2s0mn6YDnwy" resolve="VariasRespuestaTresOpciones" />
+    <node concept="3QByp$" id="2s0mn6YDria" role="3QBEN7">
+      <node concept="1GjwBS" id="2s0mn6YDrib" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
+        <ref role="1Gj$d9" to="vcgc:2s0mn6YDnwz" resolve="opcion1" />
+      </node>
+      <node concept="16I2mz" id="2s0mn6YDric" role="16N$OO">
+        <node concept="16N$OT" id="2s0mn6YDrid" role="16I2mt">
+          <property role="16N$OU" value="Falta la opción1 por cumplimentar" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="2s0mn6YDrie" role="3QBEN7">
+      <node concept="1GjwBS" id="2s0mn6YDrif" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
+        <ref role="1Gj$d9" to="vcgc:2s0mn6YDnw$" resolve="opcion2" />
+      </node>
+      <node concept="16I2mz" id="2s0mn6YDrig" role="16N$OO">
+        <node concept="16N$OT" id="2s0mn6YDrih" role="16I2mt">
+          <property role="16N$OU" value="Falta la opción2 por cumplimentar" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="2s0mn6YDrii" role="3QBEN7">
+      <node concept="1GjwBS" id="2s0mn6YDrij" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
+        <ref role="1Gj$d9" to="vcgc:2s0mn6YDnw_" resolve="respuesta" />
+      </node>
+      <node concept="16I2mz" id="2s0mn6YDrik" role="16N$OO">
+        <node concept="16N$OT" id="2s0mn6YDril" role="16I2mt">
+          <property role="16N$OU" value="Falta por rellenar la variable de TS" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="2s0mn6YDtql" role="3QBEN7">
+      <node concept="1GjwBS" id="2s0mn6YDtpq" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="vcgc:2s0mn6YDnCc" resolve="opcion3" />
+      </node>
+      <node concept="16I2mz" id="2s0mn6YDtqp" role="16N$OO">
+        <node concept="16N$OT" id="2s0mn6YDtqq" role="16I2mt">
+          <property role="16N$OU" value="Falta la opcion3 por cumplimentar" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3QByoM" id="2s0mn6YDBRc">
+    <property role="TrG5h" value="VariasRespuestaTDosOpciones_Feedback" />
+    <ref role="3Z9TSV" to="vcgc:2s0mn6YD$du" resolve="VariasRespuestaCuatroOpciones" />
+    <node concept="3QByp$" id="2s0mn6YDBRd" role="3QBEN7">
+      <node concept="1GjwBS" id="2s0mn6YDBRe" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
+        <ref role="1Gj$d9" to="vcgc:2s0mn6YD$dv" resolve="opcion1" />
+      </node>
+      <node concept="16I2mz" id="2s0mn6YDBRf" role="16N$OO">
+        <node concept="16N$OT" id="2s0mn6YDBRg" role="16I2mt">
+          <property role="16N$OU" value="Falta la opción1 por cumplimentar" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="2s0mn6YDBRh" role="3QBEN7">
+      <node concept="1GjwBS" id="2s0mn6YDBRi" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
+        <ref role="1Gj$d9" to="vcgc:2s0mn6YD$dw" resolve="opcion2" />
+      </node>
+      <node concept="16I2mz" id="2s0mn6YDBRj" role="16N$OO">
+        <node concept="16N$OT" id="2s0mn6YDBRk" role="16I2mt">
+          <property role="16N$OU" value="Falta la opción2 por cumplimentar" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="2s0mn6YDBRl" role="3QBEN7">
+      <node concept="1GjwBS" id="2s0mn6YDBRm" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
+        <ref role="1Gj$d9" to="vcgc:2s0mn6YD$dy" resolve="respuesta" />
+      </node>
+      <node concept="16I2mz" id="2s0mn6YDBRn" role="16N$OO">
+        <node concept="16N$OT" id="2s0mn6YDBRo" role="16I2mt">
+          <property role="16N$OU" value="Falta por rellenar la variable de TS" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="2s0mn6YDBRp" role="3QBEN7">
+      <node concept="1GjwBS" id="2s0mn6YDBRq" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
+        <ref role="1Gj$d9" to="vcgc:2s0mn6YD$dx" resolve="opcion3" />
+      </node>
+      <node concept="16I2mz" id="2s0mn6YDBRr" role="16N$OO">
+        <node concept="16N$OT" id="2s0mn6YDBRs" role="16I2mt">
+          <property role="16N$OU" value="Falta la opcion3 por cumplimentar" />
+        </node>
+      </node>
+    </node>
+    <node concept="3QByp$" id="2s0mn6YDCzx" role="3QBEN7">
+      <node concept="1GjwBS" id="2s0mn6YDCyA" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="vcgc:2s0mn6YD$sH" resolve="opcion4" />
+      </node>
+      <node concept="16I2mz" id="2s0mn6YDCz_" role="16N$OO">
+        <node concept="16N$OT" id="2s0mn6YDCzA" role="16I2mt">
+          <property role="16N$OU" value="Falta la opcion 4 por cumplimentar" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3QByoM" id="2s0mn6YDESH">
+    <ref role="3Z9TSV" to="vcgc:2s0mn6YDCMz" resolve="TextoCorto" />
+    <node concept="3QByp$" id="2s0mn6YDESI" role="3QBEN7">
+      <node concept="1GjwBS" id="2s0mn6YDERM" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" />
+        <ref role="1Gj$d9" to="vcgc:2s0mn6YDCM_" resolve="texto" />
+      </node>
+      <node concept="16I2mz" id="2s0mn6YDESM" role="16N$OO">
+        <node concept="16N$OT" id="2s0mn6YDESN" role="16I2mt">
+          <property role="16N$OU" value="Esta vacio, falta texto" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3QByoM" id="2s0mn6YDPg6">
+    <ref role="3Z9TSV" to="vcgc:2s0mn6YDNTt" resolve="TextoLargo" />
+    <node concept="3QByp$" id="2s0mn6YDPg7" role="3QBEN7">
+      <node concept="1GjwBS" id="2s0mn6YDPg8" role="3JXyrO">
+        <ref role="sa$J1" to="fudv:1mFJTG7e$j" resolve="FailingPropertyConstraints" />
+        <ref role="1Gj$d9" to="vcgc:2s0mn6YDNTu" resolve="texto" />
+      </node>
+      <node concept="16I2mz" id="2s0mn6YDPg9" role="16N$OO">
+        <node concept="16N$OT" id="2s0mn6YDPga" role="16I2mt">
+          <property role="16N$OU" value="Esta vacio, falta texto" />
         </node>
       </node>
     </node>

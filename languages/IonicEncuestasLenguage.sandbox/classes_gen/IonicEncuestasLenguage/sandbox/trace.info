@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
-  <root nodeRef="r:c5d28ecf-f1fb-4afa-b8c5-e52a93909b86(IonicEncuestasLenguage.sandbox)/2435339912631690828">
+  <root nodeRef="r:c5d28ecf-f1fb-4afa-b8c5-e52a93909b86(IonicEncuestasLenguage.sandbox)/107965330095344985">
     <file name="map_encuesta.xml">
-      <unit id="2435339912631690828" at="1,0,39,6" name="IonicEncuestasLenguage.sandbox.map_encuesta" />
+      <unit id="107965330095344985" at="1,0,80,6" name="IonicEncuestasLenguage.sandbox.map_encuesta" />
     </file>
   </root>
-  <root nodeRef="r:c5d28ecf-f1fb-4afa-b8c5-e52a93909b86(IonicEncuestasLenguage.sandbox)/622627011511908303">
+  <root nodeRef="r:c5d28ecf-f1fb-4afa-b8c5-e52a93909b86(IonicEncuestasLenguage.sandbox)/1554047574157142063">
     <file name="map_encuesta.xml">
-      <unit id="622627011511908303" at="1,0,76,6" name="IonicEncuestasLenguage.sandbox.map_encuesta" />
+      <unit id="1554047574157142063" at="1,0,80,6" name="IonicEncuestasLenguage.sandbox.map_encuesta" />
     </file>
   </root>
 </debug-info>

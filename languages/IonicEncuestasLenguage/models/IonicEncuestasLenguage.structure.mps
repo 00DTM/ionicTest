@@ -158,5 +158,115 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2s0mn6YDdxt">
+    <property role="EcuMT" value="2810344512543840349" />
+    <property role="TrG5h" value="VariasRespuestaDosOpciones" />
+    <property role="34LRSv" value="VRDO" />
+    <ref role="1TJDcQ" node="3Q8a0EGtJoh" resolve="Pregunta" />
+    <node concept="1TJgyi" id="2s0mn6YDdxu" role="1TKVEl">
+      <property role="IQ2nx" value="2810344512543840350" />
+      <property role="TrG5h" value="opcion1" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2s0mn6YDdxv" role="1TKVEl">
+      <property role="IQ2nx" value="2810344512543840351" />
+      <property role="TrG5h" value="opcion2" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2s0mn6YDdxw" role="1TKVEl">
+      <property role="IQ2nx" value="2810344512543840352" />
+      <property role="TrG5h" value="respuesta" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2s0mn6YDnwy">
+    <property role="EcuMT" value="2810344512543881250" />
+    <property role="TrG5h" value="VariasRespuestaTresOpciones" />
+    <property role="34LRSv" value="VRTO" />
+    <ref role="1TJDcQ" node="3Q8a0EGtJoh" resolve="Pregunta" />
+    <node concept="1TJgyi" id="2s0mn6YDnwz" role="1TKVEl">
+      <property role="IQ2nx" value="2810344512543881251" />
+      <property role="TrG5h" value="opcion1" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2s0mn6YDnw$" role="1TKVEl">
+      <property role="IQ2nx" value="2810344512543881252" />
+      <property role="TrG5h" value="opcion2" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2s0mn6YDnCc" role="1TKVEl">
+      <property role="IQ2nx" value="2810344512543881740" />
+      <property role="TrG5h" value="opcion3" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2s0mn6YDnw_" role="1TKVEl">
+      <property role="IQ2nx" value="2810344512543881253" />
+      <property role="TrG5h" value="respuesta" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2s0mn6YD$du">
+    <property role="EcuMT" value="2810344512543933278" />
+    <property role="TrG5h" value="VariasRespuestaCuatroOpciones" />
+    <property role="34LRSv" value="VRCO" />
+    <ref role="1TJDcQ" node="3Q8a0EGtJoh" resolve="Pregunta" />
+    <node concept="1TJgyi" id="2s0mn6YD$dv" role="1TKVEl">
+      <property role="IQ2nx" value="2810344512543933279" />
+      <property role="TrG5h" value="opcion1" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2s0mn6YD$dw" role="1TKVEl">
+      <property role="IQ2nx" value="2810344512543933280" />
+      <property role="TrG5h" value="opcion2" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2s0mn6YD$dx" role="1TKVEl">
+      <property role="IQ2nx" value="2810344512543933281" />
+      <property role="TrG5h" value="opcion3" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2s0mn6YD$sH" role="1TKVEl">
+      <property role="IQ2nx" value="2810344512543934253" />
+      <property role="TrG5h" value="opcion4" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2s0mn6YD$dy" role="1TKVEl">
+      <property role="IQ2nx" value="2810344512543933282" />
+      <property role="TrG5h" value="respuesta" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2s0mn6YDCMz">
+    <property role="EcuMT" value="2810344512543952035" />
+    <property role="TrG5h" value="TextoCorto" />
+    <property role="34LRSv" value="TC" />
+    <ref role="1TJDcQ" node="3Q8a0EGtJoh" resolve="Pregunta" />
+    <node concept="1TJgyi" id="2s0mn6YDCM_" role="1TKVEl">
+      <property role="IQ2nx" value="2810344512543952037" />
+      <property role="TrG5h" value="texto" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2s0mn6YDCMA" role="1TKVEl">
+      <property role="IQ2nx" value="2810344512543952038" />
+      <property role="TrG5h" value="respuesta" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2s0mn6YDNTt">
+    <property role="EcuMT" value="2810344512543997533" />
+    <property role="TrG5h" value="TextoLargo" />
+    <property role="34LRSv" value="TL" />
+    <ref role="1TJDcQ" node="3Q8a0EGtJoh" resolve="Pregunta" />
+    <node concept="1TJgyi" id="2s0mn6YDNTu" role="1TKVEl">
+      <property role="IQ2nx" value="2810344512543997534" />
+      <property role="TrG5h" value="texto" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2s0mn6YDNTv" role="1TKVEl">
+      <property role="IQ2nx" value="2810344512543997535" />
+      <property role="TrG5h" value="respuesta" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

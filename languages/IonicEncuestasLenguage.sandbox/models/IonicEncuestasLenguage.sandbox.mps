@@ -22,11 +22,6 @@
         <property id="4433837859454521556" name="opcion2" index="2hZNzu" />
         <property id="107965330095043236" name="respuesta" index="1d8ed1" />
       </concept>
-      <concept id="622627011512269794" name="IonicEncuestasLenguage.structure.UnaRespuestaTresOpciones" flags="ng" index="3gp7wl">
-        <property id="622627011512272519" name="opcion1" index="3gp8lK" />
-        <property id="622627011512273728" name="opcion3" index="3gp8yR" />
-        <property id="622627011512273071" name="opcion2" index="3gp8Ho" />
-      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -34,37 +29,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="2hZJNM" id="27c4bXvJypc">
-    <property role="TrG5h" value="Test1" />
-    <property role="2hZMzT" value="TituloEncuesta" />
-    <property role="2hZNOE" value="Enviar" />
-    <node concept="2hZMJ4" id="27c4bXvJyLv" role="2hZHKL">
-      <property role="2hZM6m" value="Pregunta1" />
-      <property role="2hZM0$" value="Si" />
-      <property role="2hZNzu" value="No" />
-    </node>
-  </node>
-  <node concept="2hZJNM" id="y$0ZvoIJvf">
-    <property role="TrG5h" value="Encuesta1" />
-    <property role="2hZMzT" value="Encuesta1" />
-    <property role="2hZNOE" value="Enviar" />
-    <node concept="2hZMJ4" id="y$0ZvoIJxG" role="2hZHKL">
-      <property role="2hZM6m" value="pregunta1" />
-      <property role="2hZM0$" value="Si" />
-      <property role="2hZNzu" value="No" />
-    </node>
-    <node concept="2hZMJ4" id="y$0ZvoIJz6" role="2hZHKL">
-      <property role="2hZM6m" value="pa" />
-      <property role="2hZM0$" value="pe" />
-      <property role="2hZNzu" value="pi" />
-    </node>
-    <node concept="3gp7wl" id="y$0ZvoKxc8" role="2hZHKL">
-      <property role="2hZM6m" value="pregunta3" />
-      <property role="3gp8lK" value="si" />
-      <property role="3gp8Ho" value="no" />
-      <property role="3gp8yR" value="tal vez" />
-    </node>
-  </node>
   <node concept="2hZJNM" id="5Z$ulcp0Pp">
     <property role="TrG5h" value="TestParcela" />
     <property role="2hZMzT" value="Parcelita" />
@@ -74,6 +38,17 @@
       <property role="2hZM0$" value="Si" />
       <property role="2hZNzu" value="No" />
       <property role="1d8ed1" value="guapo1" />
+    </node>
+  </node>
+  <node concept="2hZJNM" id="1mh5wzPGqwJ">
+    <property role="TrG5h" value="Mano" />
+    <property role="2hZMzT" value="¿Eres zurdo o diestro?" />
+    <property role="2hZNOE" value="Enviar" />
+    <node concept="2hZMJ4" id="1mh5wzPGqzB" role="2hZHKL">
+      <property role="2hZM6m" value="¿Eres zurdo o diestro?" />
+      <property role="2hZM0$" value="Zurdo" />
+      <property role="2hZNzu" value="Diestro" />
+      <property role="1d8ed1" value="ManoRespuesta" />
     </node>
   </node>
 </model>

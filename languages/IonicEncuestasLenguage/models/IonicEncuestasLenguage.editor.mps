@@ -35,7 +35,6 @@
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
-      <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0" />
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
@@ -77,7 +76,6 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3EYTF0" id="1rm4exEKrnB" role="3EZMnx" />
       <node concept="3F2HdR" id="27c4bXvIJ3O" role="3EZMnx">
         <ref role="1NtTu8" to="vcgc:3Q8a0EGtJgV" resolve="preguntas" />
         <node concept="2iRkQZ" id="27c4bXvIJ3R" role="2czzBx" />
@@ -241,6 +239,237 @@
       </node>
       <node concept="l2Vlx" id="5Z$ulcnDuE" role="2iSdaV" />
       <node concept="pj6Ft" id="5Z$ulcnDuF" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2s0mn6YDdU9">
+    <ref role="1XX52x" to="vcgc:2s0mn6YDdxt" resolve="VariasRespuestaTresOpciones" />
+    <node concept="3EZMnI" id="2s0mn6YDdUa" role="2wV5jI">
+      <node concept="3EZMnI" id="2s0mn6YDdUb" role="3EZMnx">
+        <node concept="2iRfu4" id="2s0mn6YDdUc" role="2iSdaV" />
+        <node concept="PMmxH" id="2s0mn6YDdUd" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        </node>
+        <node concept="3F0ifn" id="2s0mn6YDdUe" role="3EZMnx">
+          <property role="3F0ifm" value="Titulo de la pregunta:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YDdUf" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:3Q8a0EGtKAs" resolve="tituloPregunta" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2s0mn6YDdUg" role="3EZMnx">
+        <node concept="2iRfu4" id="2s0mn6YDdUh" role="2iSdaV" />
+        <node concept="3F0ifn" id="2s0mn6YDdUi" role="3EZMnx">
+          <property role="3F0ifm" value="Opción1:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YDdUj" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:2s0mn6YDdxu" resolve="opcion1" />
+        </node>
+        <node concept="3F0ifn" id="2s0mn6YDdUk" role="3EZMnx">
+          <property role="3F0ifm" value="Opción2: " />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YDdUl" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:2s0mn6YDdxv" resolve="opcion2" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2s0mn6YDdUm" role="3EZMnx">
+        <node concept="2iRfu4" id="2s0mn6YDdUn" role="2iSdaV" />
+        <node concept="3F0ifn" id="2s0mn6YDdUo" role="3EZMnx">
+          <property role="3F0ifm" value="Variable para TS:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YDdUp" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:2s0mn6YDdxw" resolve="respuesta" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2s0mn6YDdUq" role="2iSdaV" />
+      <node concept="pj6Ft" id="2s0mn6YDdUr" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2s0mn6YDnKw">
+    <ref role="1XX52x" to="vcgc:2s0mn6YDnwy" resolve="VariasRespuestaTresOpciones" />
+    <node concept="3EZMnI" id="2s0mn6YDnKx" role="2wV5jI">
+      <node concept="3EZMnI" id="2s0mn6YDnKy" role="3EZMnx">
+        <node concept="2iRfu4" id="2s0mn6YDnKz" role="2iSdaV" />
+        <node concept="PMmxH" id="2s0mn6YDnK$" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        </node>
+        <node concept="3F0ifn" id="2s0mn6YDnK_" role="3EZMnx">
+          <property role="3F0ifm" value="Titulo de la pregunta:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YDnKA" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:3Q8a0EGtKAs" resolve="tituloPregunta" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2s0mn6YDnKB" role="3EZMnx">
+        <node concept="2iRfu4" id="2s0mn6YDnKC" role="2iSdaV" />
+        <node concept="3F0ifn" id="2s0mn6YDnKD" role="3EZMnx">
+          <property role="3F0ifm" value="Opción1:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YDnKE" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:2s0mn6YDnwz" resolve="opcion1" />
+        </node>
+        <node concept="3F0ifn" id="2s0mn6YDnKF" role="3EZMnx">
+          <property role="3F0ifm" value="Opción2: " />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YDnKG" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:2s0mn6YDnw$" resolve="opcion2" />
+        </node>
+        <node concept="3F0ifn" id="2s0mn6YDorq" role="3EZMnx">
+          <property role="3F0ifm" value="Opcion3:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YDow8" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:2s0mn6YDnCc" resolve="opcion3" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2s0mn6YDnKH" role="3EZMnx">
+        <node concept="2iRfu4" id="2s0mn6YDnKI" role="2iSdaV" />
+        <node concept="3F0ifn" id="2s0mn6YDnKJ" role="3EZMnx">
+          <property role="3F0ifm" value="Variable para TS:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YDnKK" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:2s0mn6YDnw_" resolve="respuesta" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2s0mn6YDnKL" role="2iSdaV" />
+      <node concept="pj6Ft" id="2s0mn6YDnKM" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2s0mn6YD$$C">
+    <ref role="1XX52x" to="vcgc:2s0mn6YD$du" resolve="VariasRespuestaCuatroOpciones" />
+    <node concept="3EZMnI" id="2s0mn6YD$$D" role="2wV5jI">
+      <node concept="3EZMnI" id="2s0mn6YD$$E" role="3EZMnx">
+        <node concept="2iRfu4" id="2s0mn6YD$$F" role="2iSdaV" />
+        <node concept="PMmxH" id="2s0mn6YD$$G" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        </node>
+        <node concept="3F0ifn" id="2s0mn6YD$$H" role="3EZMnx">
+          <property role="3F0ifm" value="Titulo de la pregunta:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YD$$I" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:3Q8a0EGtKAs" resolve="tituloPregunta" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2s0mn6YD$$J" role="3EZMnx">
+        <node concept="2iRfu4" id="2s0mn6YD$$K" role="2iSdaV" />
+        <node concept="3F0ifn" id="2s0mn6YD$$L" role="3EZMnx">
+          <property role="3F0ifm" value="Opción1:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YD$$M" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:2s0mn6YD$dv" resolve="opcion1" />
+        </node>
+        <node concept="3F0ifn" id="2s0mn6YD$$N" role="3EZMnx">
+          <property role="3F0ifm" value="Opción2: " />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YD$$O" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:2s0mn6YD$dw" resolve="opcion2" />
+        </node>
+        <node concept="3F0ifn" id="2s0mn6YD$$P" role="3EZMnx">
+          <property role="3F0ifm" value="Opcion3:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YD$$Q" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:2s0mn6YD$dx" resolve="opcion3" />
+        </node>
+        <node concept="3F0ifn" id="2s0mn6YD$Y3" role="3EZMnx">
+          <property role="3F0ifm" value="Opcion4:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YD_5v" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:2s0mn6YD$sH" resolve="opcion4" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2s0mn6YD$$R" role="3EZMnx">
+        <node concept="2iRfu4" id="2s0mn6YD$$S" role="2iSdaV" />
+        <node concept="3F0ifn" id="2s0mn6YD$$T" role="3EZMnx">
+          <property role="3F0ifm" value="Variable para TS:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YD$$U" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:2s0mn6YD$dy" resolve="respuesta" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2s0mn6YD$$V" role="2iSdaV" />
+      <node concept="pj6Ft" id="2s0mn6YD$$W" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2s0mn6YDDeW">
+    <ref role="1XX52x" to="vcgc:2s0mn6YDCMz" resolve="TextoCorto" />
+    <node concept="3EZMnI" id="2s0mn6YDDeX" role="2wV5jI">
+      <node concept="3EZMnI" id="2s0mn6YDDeY" role="3EZMnx">
+        <node concept="2iRfu4" id="2s0mn6YDDeZ" role="2iSdaV" />
+        <node concept="PMmxH" id="2s0mn6YDDf0" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        </node>
+        <node concept="3F0ifn" id="2s0mn6YDDf1" role="3EZMnx">
+          <property role="3F0ifm" value="Titulo de la pregunta:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YDDf2" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:3Q8a0EGtKAs" resolve="tituloPregunta" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2s0mn6YDDf3" role="3EZMnx">
+        <node concept="2iRfu4" id="2s0mn6YDDf4" role="2iSdaV" />
+        <node concept="3F0ifn" id="2s0mn6YDDf5" role="3EZMnx">
+          <property role="3F0ifm" value="Opción1:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YDDf6" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:2s0mn6YDCM_" resolve="texto" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2s0mn6YDDf9" role="3EZMnx">
+        <node concept="2iRfu4" id="2s0mn6YDDfa" role="2iSdaV" />
+        <node concept="3F0ifn" id="2s0mn6YDDfb" role="3EZMnx">
+          <property role="3F0ifm" value="Variable para TS:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YDDfc" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:2s0mn6YDCMA" resolve="respuesta" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2s0mn6YDDfd" role="2iSdaV" />
+      <node concept="pj6Ft" id="2s0mn6YDDfe" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2s0mn6YDO85">
+    <ref role="1XX52x" to="vcgc:2s0mn6YDNTt" resolve="TextoLargo" />
+    <node concept="3EZMnI" id="2s0mn6YDO86" role="2wV5jI">
+      <node concept="3EZMnI" id="2s0mn6YDO87" role="3EZMnx">
+        <node concept="2iRfu4" id="2s0mn6YDO88" role="2iSdaV" />
+        <node concept="PMmxH" id="2s0mn6YDO89" role="3EZMnx">
+          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        </node>
+        <node concept="3F0ifn" id="2s0mn6YDO8a" role="3EZMnx">
+          <property role="3F0ifm" value="Titulo de la pregunta:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YDO8b" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:3Q8a0EGtKAs" resolve="tituloPregunta" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2s0mn6YDO8c" role="3EZMnx">
+        <node concept="2iRfu4" id="2s0mn6YDO8d" role="2iSdaV" />
+        <node concept="3F0ifn" id="2s0mn6YDO8e" role="3EZMnx">
+          <property role="3F0ifm" value="Opción1:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YDO8f" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:2s0mn6YDNTu" resolve="texto" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2s0mn6YDO8g" role="3EZMnx">
+        <node concept="2iRfu4" id="2s0mn6YDO8h" role="2iSdaV" />
+        <node concept="3F0ifn" id="2s0mn6YDO8i" role="3EZMnx">
+          <property role="3F0ifm" value="Variable para TS:" />
+        </node>
+        <node concept="3F0A7n" id="2s0mn6YDO8j" role="3EZMnx">
+          <ref role="1NtTu8" to="vcgc:2s0mn6YDNTv" resolve="respuesta" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2s0mn6YDO8k" role="2iSdaV" />
+      <node concept="pj6Ft" id="2s0mn6YDO8l" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
     </node>
